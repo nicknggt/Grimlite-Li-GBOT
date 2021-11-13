@@ -583,6 +583,20 @@
         "Name": "quest_605"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "7551",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7551
+        }
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is in progress",
@@ -900,8 +914,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2857,
-          "CanComplete": true
+          "QuestID": 2857
         }
       },
       {
@@ -1302,8 +1315,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 2857,
-          "ItemId": "4771",
-          "CanComplete": true
+          "ItemId": "4771"
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1323,8 +1335,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2857,
-          "CanComplete": true
+          "QuestID": 2857
         }
       },
       {
@@ -1697,7 +1708,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -1725,7 +1737,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -1753,7 +1766,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -1781,7 +1795,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -1809,7 +1824,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -1837,7 +1853,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -2225,7 +2242,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -2253,7 +2271,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -2281,7 +2300,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -2309,7 +2329,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -2337,7 +2358,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -2365,7 +2387,8 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "quest_605"
       }
     ]
   },
