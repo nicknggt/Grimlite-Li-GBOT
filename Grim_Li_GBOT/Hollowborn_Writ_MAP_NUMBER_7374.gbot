@@ -15,7 +15,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "map_number",
-        "Value2": "1e9"
+        "Value2": "7374"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
