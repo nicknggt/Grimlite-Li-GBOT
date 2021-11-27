@@ -428,7 +428,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not in progress",
-        "Value1": "4813",
+        "Value1": "8413",
         "Value2": ""
       },
       {
@@ -442,7 +442,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not in progress",
-        "Value1": "4813",
+        "Value1": "8413",
         "Value2": ""
       },
       {
