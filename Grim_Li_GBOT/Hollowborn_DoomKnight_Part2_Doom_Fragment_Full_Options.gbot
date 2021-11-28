@@ -13,7 +13,22 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "▼▼▼Farm Binky? 1=ON 0=OFF▼▼▼",
+        "Text": "▼▼How many Doom Fragment?▼▼",
+        "Alpha": 255,
+        "R": 220,
+        "G": 50,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "DoomFragment",
+        "Value2": "15"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▼▼Farm Binky? 1=ON 0=OFF▼▼",
         "Alpha": 255,
         "R": 255,
         "G": 1,
@@ -23,6 +38,21 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Farm Binky?",
         "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Ingredients_stack",
+        "Value2": "10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "▲Binky Items stack (max 222)▲",
+        "Alpha": 255,
+        "R": 255,
+        "G": 1,
+        "B": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -38,21 +68,6 @@
         "Text": "Set Temporary Variable",
         "Value1": "room_number",
         "Value2": "2021"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "▼▼How many Doom Fragment?▼▼",
-        "Alpha": 255,
-        "R": 220,
-        "G": 50,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
-        "Value1": "DoomFragment",
-        "Value2": "15"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -204,7 +219,7 @@
         "Tag": "Misc",
         "Text": "Int Lesser Than",
         "Value1": "Rotation",
-        "Value2": "15"
+        "Value2": "10"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -355,26 +370,6 @@
         "IndexString": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8414,
-          "IsInProgress": true
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "8414",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Check"
       },
@@ -398,6 +393,26 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 8414,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "8414",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 3,
+        "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -693,8 +708,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
-        "Pad": "NNg_"
+        "Cell": "Swindle",
+        "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -823,6 +838,13 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "r5",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Ingredients?",
+        "Value2": "[Ingredients_stack]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1047,7 +1069,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%warning%-1%Go Farm Binky Manually%",
+        "Packet": "%xt%warning%-1%Please go farm Ingredients manually%",
         "SpamTimes": 1,
         "Delay": 1000,
         "ForClient": true
