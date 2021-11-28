@@ -195,6 +195,11 @@
         "B": 220
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "Rotation"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntLessThan, Grimoire",
         "Tag": "Misc",
         "Text": "Int Lesser Than",
