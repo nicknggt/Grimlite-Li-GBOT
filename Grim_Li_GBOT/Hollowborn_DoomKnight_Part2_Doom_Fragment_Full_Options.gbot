@@ -744,7 +744,7 @@
         "Tag": "Item",
         "Text": "Is in inventory",
         "Value1": "Doomatter",
-        "Value2": "1"
+        "Value2": "10"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1065,12 +1065,6 @@
       "Doomatter",
       "Dark Fragment"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Yokai (SEA)",
-    "iPort": 5588,
-    "sIP": "asia.game.artix.com"
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
