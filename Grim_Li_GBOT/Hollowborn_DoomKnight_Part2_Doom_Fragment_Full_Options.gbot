@@ -353,7 +353,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8414
+          "QuestID": 8414,
+          "IsInProgress": true
         }
       },
       {
@@ -460,9 +461,9 @@
         "Label": "run_prev_bot"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntNotEqualInt, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
-        "Text": "Int is not equal to Int",
+        "Text": "Int is not",
         "Value1": "Farm Binky?",
         "Value2": "1"
       },
@@ -631,7 +632,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 7,
+        "Index": 8,
         "IndexString": ""
       },
       {
@@ -837,7 +838,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8414
+          "QuestID": 8414,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1065,6 +1067,12 @@
       "Doomatter",
       "Dark Fragment"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588,
+    "sIP": "twilly.aqw.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
