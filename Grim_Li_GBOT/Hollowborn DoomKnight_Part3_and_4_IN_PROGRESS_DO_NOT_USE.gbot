@@ -984,14 +984,6 @@
         "ItemName": "Bone Dust"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
         "Tag": "Item",
         "Text": "Has dropped",
@@ -5429,8 +5421,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4439,
-          "IsInProgress": true
+          "QuestID": 4439
         }
       },
       {
@@ -5910,8 +5901,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4439,
-          "IsInProgress": true
+          "QuestID": 4439
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -5956,8 +5946,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4439,
-          "IsInProgress": true
+          "QuestID": 4439
         }
       },
       {
@@ -6391,38 +6380,6 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "no_nsod"
       },
@@ -6598,7 +6555,10 @@
       "Hollowborn Shadow of Fate",
       "Hollowborn Shadow of Fate",
       "Hollowborn Shadow of Fate",
-      "Hollowborn Shadow of Fate"
+      "Hollowborn Shadow of Fate",
+      "Bone Dust",
+      "Empowered Essence",
+      "Malignant Essence"
     ]
   },
   "Server": {
