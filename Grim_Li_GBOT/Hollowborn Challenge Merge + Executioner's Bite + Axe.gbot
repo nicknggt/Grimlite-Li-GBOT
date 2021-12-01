@@ -271,6 +271,13 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "{\"t\":\"xt\",\"b\":{\"r\":-1,\"o\":{\"cmd\":\"updateQuest\",\"iValue\":27,\"iIndex\":49}}}",
         "SpamTimes": 1,
+        "Delay": 1000,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "{\"t\":\"xt\",\"b\":{\"r\":-1,\"o\":{\"cmd\":\"updateQuest\",\"iValue\":27,\"iIndex\":49}}}",
+        "SpamTimes": 1,
         "Delay": 1000
       },
       {
