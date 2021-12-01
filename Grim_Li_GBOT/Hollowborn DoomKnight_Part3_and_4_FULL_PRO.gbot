@@ -4020,8 +4020,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8416,
-          "IsInProgress": true
+          "QuestID": 8416
         }
       },
       {
@@ -5328,8 +5327,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8416,
-          "IsInProgress": true
+          "QuestID": 8416
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -5402,8 +5400,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8416,
-          "IsInProgress": true
+          "QuestID": 8416
         }
       },
       {
@@ -7766,6 +7763,16 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 2500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%getQuests%2%3800%3801%3802%3803%3804%3805%3806%3807%",
+        "SpamTimes": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -17982,13 +17989,12 @@
         "Index": 2,
         "IndexString": ""
       },
-	  {
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "{\"t\":\"xt\",\"b\":{\"r\":-1,\"o\":{\"cmd\":\"updateQuest\",\"iValue\":27,\"iIndex\":49}}}",
         "SpamTimes": 1,
         "Delay": 1000,
-        "ForClient": true,
-        "Client": false
+        "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
