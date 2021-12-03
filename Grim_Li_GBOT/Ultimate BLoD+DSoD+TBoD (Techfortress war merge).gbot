@@ -740,8 +740,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7654,
-          "IsInProgress": true
+          "QuestID": 7654
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -792,8 +791,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7654,
-          "IsInProgress": true
+          "QuestID": 7654
         }
       },
       {
@@ -1023,7 +1021,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655
+          "QuestID": 7655,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1057,7 +1056,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is in progress",
-        "Value1": "7565",
+        "Value1": "7655",
         "Value2": ""
       },
       {
@@ -1074,7 +1073,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655
+          "QuestID": 7655,
+          "IsInProgress": true
         }
       },
       {
@@ -2020,9 +2020,9 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Yokai (SEA)",
+    "sName": "Twilly",
     "iPort": 5588,
-    "sIP": "asia.game.artix.com"
+    "sIP": "twilly.aqw.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
