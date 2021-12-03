@@ -446,8 +446,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Classic Hollowborn Paladin Armor",
-        "Value": 1
+        "Int": "Classic Hollowborn Paladin Armor"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -458,8 +457,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Hollowborn Paladin Visor",
-        "Value": 1
+        "Int": "Hollowborn Paladin Visor"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -470,8 +468,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Hollowborn Paladin Hood",
-        "Value": 1
+        "Int": "Hollowborn Paladin Hood"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -482,8 +479,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Hollowborn Templar Helm",
-        "Value": 1
+        "Int": "Hollowborn Templar Helm"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -494,8 +490,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Hollowborn Paladin Cape",
-        "Value": 1
+        "Int": "Hollowborn Paladin Cape"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -506,8 +501,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Hollowborn Paladin Cloak",
-        "Value": 1
+        "Int": "Hollowborn Paladin Cloak"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -518,8 +512,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Dual Hollowborn Shadows of Fate",
-        "Value": 1
+        "Int": "Dual Hollowborn Shadows of Fate"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -530,8 +523,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Hollowborn Daimyo Battlepet",
-        "Value": 1
+        "Int": "Hollowborn Daimyo Battlepet"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -542,8 +534,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Hollowborn Daimyo",
-        "Value": 1
+        "Int": "Hollowborn Daimyo"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
@@ -2726,8 +2717,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7556,
-          "IsInProgress": true
+          "QuestID": 7556
         }
       },
       {
@@ -2822,8 +2812,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7556,
-          "IsInProgress": true
+          "QuestID": 7556
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2877,8 +2866,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7556,
-          "IsInProgress": true
+          "QuestID": 7556
         }
       },
       {
@@ -3242,12 +3230,6 @@
       "Lae's Hardcore Contract",
       "Fallen Soul"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
-    "iPort": 5588,
-    "sIP": "safiria.aq.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
