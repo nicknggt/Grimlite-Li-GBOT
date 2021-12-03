@@ -1021,8 +1021,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655,
-          "IsInProgress": true
+          "QuestID": 7655
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1073,8 +1072,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655,
-          "IsInProgress": true
+          "QuestID": 7655
         }
       },
       {
@@ -1566,7 +1564,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 3,
+        "Index": 4,
         "IndexString": ""
       },
       {
@@ -1582,6 +1580,10 @@
         "ItemName": "Ultimate Blinding Light of Destiny"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -1591,7 +1593,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 3,
+        "Index": 4,
         "IndexString": ""
       },
       {
@@ -1605,6 +1607,10 @@
         "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
         "ShopId": 1902,
         "ItemName": "Ultimate DragonStaff of Destiny"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
@@ -1629,11 +1635,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
         "ShopId": 1902,
-        "ItemName": "Ultimate DragonStaff of Destiny"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1500
+        "ItemName": "Ultimate Twin Blades of Destiny"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2027,6 +2029,7 @@
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
+  "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
   "BotDelay": 1,
