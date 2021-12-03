@@ -3256,6 +3256,7 @@
   "BotDelay": 1000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
