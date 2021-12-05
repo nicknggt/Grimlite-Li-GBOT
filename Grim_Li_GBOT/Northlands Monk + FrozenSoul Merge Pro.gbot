@@ -275,9 +275,9 @@
         "Label": "Check"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
         "Tag": "Item",
-        "Text": "Is in inventory",
+        "Text": "Is in temp inventory",
         "Value1": "[temp]",
         "Value2": "[temp_quantity]"
       },
@@ -386,9 +386,9 @@
         "Label": "Check"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
         "Tag": "Item",
-        "Text": "Is in inventory",
+        "Text": "Is in temp inventory",
         "Value1": "[temp]",
         "Value2": "[temp_quantity]"
       },
@@ -859,8 +859,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7262,
-          "IsInProgress": true
+          "QuestID": 7262
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -891,8 +890,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7262,
-          "IsInProgress": true
+          "QuestID": 7262
         }
       },
       {
@@ -968,7 +966,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7263,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1000,7 +999,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7263,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -1076,8 +1076,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7264,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1109,8 +1108,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7264,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         }
       },
       {
