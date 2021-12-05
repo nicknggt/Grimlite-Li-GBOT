@@ -560,7 +560,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBankOrInvent, Grimoire",
         "Tag": "Item",
         "Text": "Is in bank or inventory",
-        "Value1": "Frozen Fist Top Knot + Scraf",
+        "Value1": "Frozen Fist Top Knot + Scarf",
         "Value2": "*"
       },
       {
@@ -752,7 +752,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
         "Tag": "Item",
         "Text": "Is not in bank and inventory",
-        "Value1": "Frozen Fist Top Knot + Scraf",
+        "Value1": "Frozen Fist Top Knot + Scarf",
         "Value2": "*"
       },
       {
@@ -760,7 +760,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "item",
-        "Value2": "Frozen Fist Top Knot + Scraf"
+        "Value2": "Frozen Fist Top Knot + Scarf"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
@@ -1265,10 +1265,17 @@
       "Frozen Soul"
     ]
   },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Yokai (SEA)",
+    "iPort": 5588,
+    "sIP": "asia.game.artix.com"
+  },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "EnableRejection": true,
+  "AutoRelogin": true,
   "RelogDelay": 5000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
