@@ -80,7 +80,8 @@
           "Text": "Anathema",
           "Index": "4"
         },
-        "Targeted": true
+        "Targeted": true,
+        "Target": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -89,7 +90,8 @@
           "Text": "Depraved Empowerment",
           "Index": "3"
         },
-        "Targeted": true
+        "Targeted": true,
+        "Target": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -98,7 +100,8 @@
           "Text": "Wicked Purgatory",
           "Index": "2"
         },
-        "Targeted": true
+        "Targeted": true,
+        "Target": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -107,7 +110,8 @@
           "Text": "Atramentous Shade",
           "Index": "1"
         },
-        "Targeted": true
+        "Targeted": true,
+        "Target": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -148,7 +152,8 @@
           "Text": "Armageddon",
           "Index": "4"
         },
-        "Targeted": true
+        "Targeted": true,
+        "Target": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -157,7 +162,8 @@
           "Text": "Highlord's Gaze",
           "Index": "2"
         },
-        "Targeted": true
+        "Targeted": true,
+        "Target": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -166,7 +172,8 @@
           "Text": "Unshackle",
           "Index": "3"
         },
-        "Targeted": true
+        "Targeted": true,
+        "Target": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -266,21 +273,22 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7324
+          "QuestID": 7324,
+          "IsInProgress": true
         }
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Map is not",
-        "Value1": "portalmaze",
+        "Value1": "arcangrove",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "portalmaze-1e9",
-        "Cell": "r8",
-        "Pad": "Left"
+        "Map": "arcangrove-1e9",
+        "Cell": "Right",
+        "Pad": "Right"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -352,8 +360,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8001,
-          "IsInProgress": true
+          "QuestID": 8001
         }
       },
       {
@@ -439,8 +446,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8396,
-          "IsInProgress": true
+          "QuestID": 8396
         }
       },
       {
@@ -481,8 +487,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r8",
-        "Pad": "Left"
+        "Cell": "Right",
+        "Pad": "Right"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -856,7 +862,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7324
+          "QuestID": 7324,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -888,8 +895,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8001,
-          "IsInProgress": true
+          "QuestID": 8001
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -921,8 +927,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8396,
-          "IsInProgress": true
+          "QuestID": 8396
         },
         "CompleteTry": 1,
         "Delay": 1000
