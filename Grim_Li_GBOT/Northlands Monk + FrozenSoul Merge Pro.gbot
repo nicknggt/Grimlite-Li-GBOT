@@ -749,13 +749,6 @@
         "Label": "Completed"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in bank and inventory",
-        "Value1": "Frozen Fist Top Knot + Scarf",
-        "Value2": "*"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
@@ -766,8 +759,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
         "Tag": "Item",
         "Text": "Is not in bank and inventory",
-        "Value1": "Frozen Fist Top Knot + Beard",
+        "Value1": "Frozen Fist Top Knot + Scarf",
         "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Queen"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -780,8 +777,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
         "Tag": "Item",
         "Text": "Is not in bank and inventory",
-        "Value1": "Poleaxe of Kheimon",
+        "Value1": "Frozen Fist Top Knot + Beard",
         "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Queen"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -794,8 +795,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
         "Tag": "Item",
         "Text": "Is not in bank and inventory",
-        "Value1": "Frozen Rune of Kheimon",
+        "Value1": "Poleaxe of Kheimon",
         "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Queen"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -808,8 +813,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
         "Tag": "Item",
         "Text": "Is not in bank and inventory",
-        "Value1": "Frozen Flame of Kheimon",
+        "Value1": "Frozen Rune of Kheimon",
         "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Queen"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -817,6 +826,13 @@
         "Text": "Set Temporary Variable",
         "Value1": "item",
         "Value2": "Frozen Flame of Kheimon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in bank and inventory",
+        "Value1": "Frozen Flame of Kheimon",
+        "Value2": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -859,7 +875,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7262
+          "QuestID": 7262,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -890,7 +907,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7262
+          "QuestID": 7262,
+          "IsInProgress": true
         }
       },
       {
@@ -965,7 +983,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7263
+          "QuestID": 7263,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -996,7 +1015,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7263
+          "QuestID": 7263,
+          "IsInProgress": true
         }
       },
       {
@@ -1071,7 +1091,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7264
+          "QuestID": 7264,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1102,7 +1123,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7264
+          "QuestID": 7264,
+          "IsInProgress": true
         }
       },
       {
