@@ -80,17 +80,6 @@
         "Label": "Check"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in temp inventory",
-        "Value1": "[temp]",
-        "Value2": "[temp_quantity]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Check"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "[cell]",
         "Pad": "[pad]"
@@ -185,6 +174,17 @@
         "B": 220
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in temp inventory",
+        "Value1": "[temp]",
+        "Value2": "[temp_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "type": 1,
         "Int": "Rotation"
@@ -238,17 +238,6 @@
         "Text": "Is in inventory",
         "Value1": "[item]",
         "Value2": "[quantity]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in temp inventory",
-        "Value1": "[temp]",
-        "Value2": "[temp_quantity]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -326,6 +315,17 @@
         "R": 220,
         "G": 220,
         "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in temp inventory",
+        "Value1": "[temp]",
+        "Value2": "[temp_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -762,8 +762,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7654,
-          "IsInProgress": true
+          "QuestID": 7654
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -829,8 +828,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7654,
-          "IsInProgress": true
+          "QuestID": 7654
         }
       },
       {
@@ -1060,7 +1058,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655
+          "QuestID": 7655,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1126,7 +1125,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655
+          "QuestID": 7655,
+          "IsInProgress": true
         }
       },
       {
@@ -1272,7 +1272,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7291
+          "QuestID": 7291,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1281,6 +1282,21 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Index": 4,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Rainbow Moonstone",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Rainbow Moonstone"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -1314,7 +1330,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7291
+          "QuestID": 7291,
+          "IsInProgress": true
         }
       },
       {
@@ -2082,6 +2099,7 @@
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
+  "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
   "BotDelay": 1,
