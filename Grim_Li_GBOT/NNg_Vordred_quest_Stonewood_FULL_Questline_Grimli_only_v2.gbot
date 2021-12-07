@@ -72,7 +72,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[255,255,255]3. Must have SDKA b4 continued"
+        "Text": "[255,255,255]3. Must have SDKA for Empowered Armor"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
