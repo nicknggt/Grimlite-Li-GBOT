@@ -3305,7 +3305,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 7,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -9004,12 +9004,6 @@
       "Boneblade of Gorgorath"
     ]
   },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Yokai (SEA)",
-    "iPort": 5588,
-    "sIP": "asia.game.artix.com"
-  },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
@@ -9020,7 +9014,6 @@
   "InfiniteAttackRange": true,
   "LagKiller": true,
   "SkipCutscenes": true,
-  "DisableAnimations": true,
   "WalkSpeed": 16,
   "NotifyUponDrop": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
@@ -9034,5 +9027,6 @@
     "$values": []
   },
   "DropDelay": 1000,
+  "AntiCounter": true,
   "FollowName": "Player"
 }
