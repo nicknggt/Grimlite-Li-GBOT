@@ -31,6 +31,10 @@
 ![s2_c_panel](./stuck_at_connecting_tutorial/C_Panel_s2.png)
 4. Restart Your computer.
 
+## Still not working????
+¯\_(ツ)_/¯
+
+
 
 # Changelogs:
 ## v2.3.2:
