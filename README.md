@@ -8,7 +8,7 @@
 **Note: There might be some gbots that are in progress so be careful for not to use it after downloading, normally these gbots are appeared in the latest date modified but our team will try our best to finish it before committing**
 
 ## Stuck at reconnecting in GrimLi?
-[Click here to download CleanFlash (v. 34.0.0.184)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.184/CleanFlash_34.0.0.184_Installer.rar). Install it to solve your issue.
+[Click here to download CleanFlash (v34.0.0.184)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.184/CleanFlash_34.0.0.184_Installer.rar). Install it to solve your issue.
 
 # Changelogs:
 ## v2.3.2:
