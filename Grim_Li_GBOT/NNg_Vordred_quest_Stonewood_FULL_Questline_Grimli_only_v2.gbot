@@ -780,6 +780,13 @@
         "Int": "unbank_for_more_skulls_8377"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_target_main_item",
+        "Value2": "Null"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 2000
       },
@@ -1701,7 +1708,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8380
+          "QuestID": 8380,
+          "IsInProgress": true
         }
       },
       {
@@ -2535,7 +2543,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8380
+          "QuestID": 8380,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -8828,6 +8837,12 @@
       "Boneblade of Gorgorath",
       "Boneblade of Gorgorath"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588,
+    "sIP": "twilly.aqw.aq.com"
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
