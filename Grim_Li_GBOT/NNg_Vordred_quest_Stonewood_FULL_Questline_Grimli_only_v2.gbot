@@ -2530,22 +2530,16 @@
         "Delay": 1000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1400
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
         "Tag": "Quest",
-        "Text": "Quest is in progress",
+        "Text": "Quest can be turned in",
         "Value1": "8380",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLogout, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 700
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 3,
+        "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -8809,12 +8803,6 @@
       "Boneblade of Gorgorath",
       "Boneblade of Gorgorath"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Yokai (SEA)",
-    "iPort": 5588,
-    "sIP": "asia.game.artix.com"
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
