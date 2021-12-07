@@ -1675,7 +1675,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 4,
+        "Index": 3,
         "IndexString": ""
       },
       {
@@ -1691,10 +1691,6 @@
         "ItemName": "Ultimate Blinding Light of Destiny"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Check"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -1704,7 +1700,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 4,
+        "Index": 3,
         "IndexString": ""
       },
       {
@@ -1718,10 +1714,6 @@
         "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
         "ShopId": 1902,
         "ItemName": "Ultimate DragonStaff of Destiny"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
@@ -1778,6 +1770,9 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "Overwhelmed Axe"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
