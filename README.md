@@ -23,6 +23,14 @@
 ![step_2_tutorial](./stuck_at_connecting_tutorial/step_2.png)
 3. Restart Grimoire.
 
+## Still not working???
+1. open "Control Panel" (You can search that phase in Window search bar and opens it)
+2. Inside "Control Panel", Make the option *View by Category*, then click on *Uninstall a program*
+![s1_c_panel](./stuck_at_connecting_tutorial/C_Panel_s1.png)
+3. Click on *"Turn Windows features on or off"*, check if these 2 options are ticked in order to let your computer download those .NET Framework automatically in the latest version.
+![s2_c_panel](./stuck_at_connecting_tutorial/C_Panel_s2.png)
+4. Restart Your computer.
+
 
 # Changelogs:
 ## v2.3.2:
