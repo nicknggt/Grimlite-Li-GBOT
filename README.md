@@ -32,7 +32,7 @@
 4. Restart Your computer.
 
 ## Still not working????
-¯\_(ツ)_/¯
+welp ¯\_(ツ)_/¯
 
 
 
