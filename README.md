@@ -1,14 +1,27 @@
 # Downloads:
-## Latest version of GrimLite Li v 2.3.2 has been released (Made by Froztt); 
+## Latest version of GrimLite Li v 2.3.2 has been released (Made by Froztt)
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
 
-## To get the latest Grimlite Li GBOT files  which are made by our guild (incl. me); 
+## To get the latest Grimlite Li GBOT files  which are made by our guild (incl. me) 
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
 
-**Note: There might be some gbots that are in progress so be careful for not to use it after downloading, normally these gbots are appeared in the latest date modified but our team will try our best to finish it before committing**
+**NOTE: There might be some gbots that are in progress so be careful for not to use it after downloading, normally these gbots are appeared in the latest date modified but our team will try our best to finish it before committing**
+
+**ALSO NOTE: These GBOT files only worked for GrimLi. Other [Grimoire software](https://auqw.tk/) WON'T WORK. Same thing for other Grim software GBOT(s) which also won't work in GrimLi**
 
 ## Stuck at reconnecting in GrimLi?
+[Click here to download CleanFlash (v34.0.0.192)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.192/Flash.Player-20211207T081507Z-001.zip)
+
+**If it's not working, try to install the older version of CleanFlash:**
 [Click here to download CleanFlash (v34.0.0.184)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.184/CleanFlash_34.0.0.184_Installer.rar). Install it to solve your issue.
+
+**if it also not working, try to do these followings:**
+1. Type %AppData% on windows search menu to open "Roaming" folder.
+![step_1_tutorial](./stuck_at_connecting_tutorial/step_1.png)
+2. Find "Marcomedia" folder inside Roaming and delete it.
+![step_2_tutorial](./stuck_at_connecting_tutorial/step_2.png)
+3. Restart Grimoire.
+
 
 # Changelogs:
 ## v2.3.2:
