@@ -32,6 +32,15 @@
 4. Restart Your computer.
 
 ## Still not working????
+1. Locate the filepath `C:\Windows\System32\Macromed\`
+![mflash_step_1](./stuck_at_connecting_tutorial/M_flash_s1.png)
+2. Download Flash.rar [(click here to download)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/Macromed_Flash_sys32/Flash.rar)
+3. After download it, open the downloaded file by *WinRar Archive* or any other extracting software you know (example: [7zip](https://www.7-zip.org/download.html), etc.)
+4. Drag the Flash folder to the filepath to overwrite the existing one
+![mflash_step_4](./stuck_at_connecting_tutorial/M_flash_s4.png)
+5. Restart your PC if it's not working.
+
+## Still not working?????
 `¯\_(ツ)_/¯`
 
 
