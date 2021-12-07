@@ -54,7 +54,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "ShadowWeaver of Time",
+        "ItemName": "Void Highlord",
         "Safe": true
       },
       {
@@ -218,7 +218,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "ShadowWeaver of Time",
+        "ItemName": "Legion Revenant",
         "Safe": true
       },
       {
@@ -1074,8 +1074,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655,
-          "IsInProgress": true
+          "QuestID": 7655
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1130,8 +1129,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7655,
-          "IsInProgress": true
+          "QuestID": 7655
         }
       },
       {
