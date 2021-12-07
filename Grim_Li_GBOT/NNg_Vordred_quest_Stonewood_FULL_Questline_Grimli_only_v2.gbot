@@ -121,7 +121,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Farm Raxgore?"
+        "Int": "Farm Raxgore?",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -836,12 +837,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
         "Tag": "Item",
         "Text": "Has dropped",
-        "Value1": "Undead Army Skull",
+        "Value1": "[var_target_main_item]",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Undead Army Skull"
+        "ItemName": "[var_target_main_item]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
@@ -853,39 +854,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
         "ItemName": "Dark Palace Token"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "O-dokuro Blade",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "O-dokuro Blade"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Dread Staff",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Dread Staff"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Spine Gripper",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Spine Gripper"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
@@ -908,149 +876,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
         "ItemName": "Dage's Approval"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Skulls of the Necromancer",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Skulls of the Necromancer"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Undead Terror Armor",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Undead Terror Armor"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Escherion's Robe",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Escherion's Robe"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Reaper's Skull",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Reaper's Skull"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Legion Lich Lord's Skull",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Legion Lich Lord's Skull"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Desolich's Skull",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Desolich's Skull"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Ancient Evil of the Necropolis",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Ancient Evil of the Necropolis"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Noxus Runes",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Noxus Runes"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "(Necro) Scroll of Dark Arts",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "(Necro) Scroll of Dark Arts"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Undead Warrior Bruiser",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Undead Warrior Bruiser"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Bone Axe",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Bone Axe"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Dracolich Destroyer Scythe",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Dracolich Destroyer Scythe"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Boneblade of Gorgorath",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Boneblade of Gorgorath"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
