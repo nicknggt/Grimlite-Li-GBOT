@@ -132,7 +132,13 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "Farm hard bosses? 1=ON 0=OFF",
+        "Text": "Farm hard bosses?",
+        "Alpha": 255,
+        "R": 255
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Edit in Value: 1=ON 0=OFF",
         "Alpha": 255,
         "R": 255
       },
@@ -143,8 +149,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Farm Raxgore?",
-        "Value": 1
+        "Int": "Farm Raxgore?"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -216,7 +221,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[255,0,102]Solo class (double click to edit)"
+        "Text": "[255,0,102]Solo class"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
@@ -508,7 +513,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[204,51,255]Strong solo class"
+        "Text": "[204,51,255]Legion Lich Lord solo class"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
@@ -533,7 +538,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[204,51,255]Strong solo skillset"
+        "Text": "[204,51,255]Defensive solo skillset"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -3168,17 +3173,6 @@
         "Name": "undead_rax_skull"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in inventory",
-        "Value1": "Undead Raxgore's Skull",
-        "Value2": "10"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "legion_lichlord"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
         "Tag": "Misc",
         "Text": "Int is",
@@ -3228,6 +3222,156 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Index": 3,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_target_main_item",
+        "Value2": "Undead Raxgore's Skull"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_inv_item_quantity",
+        "Value2": "10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_temp_inv",
+        "Value2": "temp_null"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_temp_quantity",
+        "Value2": "99"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "counter_rotation"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Undead Raxgore's Skull",
+        "Value2": "10"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "legion_lichlord"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "class_equip",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 7,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "class_equip",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Please"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "equip_class_int 1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "doomvaultb",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "doomvaultb-[room_number]",
+        "Cell": "r26",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r26",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r26",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "skillset_of_class 1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -8056,8 +8200,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8376,
-          "IsInProgress": true
+          "QuestID": 8376
         }
       },
       {
@@ -8328,8 +8471,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8376,
-          "IsInProgress": true
+          "QuestID": 8376
         },
         "CompleteTry": 1,
         "Delay": 1000
