@@ -26,7 +26,7 @@
         "Tag": "Misc",
         "Text": "Set Variable",
         "Value1": "Player Name",
-        "Value2": "Double Click THIS to change"
+        "Value2": "<Change Name Here>"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -56,19 +56,18 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "Enable Locked Zone?",
         "Alpha": 255,
-        "R": 100,
+        "R": 220,
         "G": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "Edit in Value: 1=ON 0=OFF",
         "Alpha": 255,
-        "R": 150,
         "G": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Enable_zone1?",
+        "Int": "Enable_Lockedzone?",
         "Value": 1
       },
       {
@@ -87,15 +86,11 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "Enable zone 2?",
+        "Text": "Choose Room2",
         "Alpha": 255,
-        "R": 1,
+        "R": 220,
         "G": 220,
-        "B": 1
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Enable_zone2?"
+        "B": 100
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -113,15 +108,11 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "Enable zone 3?",
+        "Text": "Choose room3",
         "Alpha": 255,
-        "R": 1,
+        "R": 220,
         "G": 220,
         "B": 100
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Enable_zone3?"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -136,6 +127,22 @@
         "Text": "Set Temporary Variable",
         "Value1": "roomID3",
         "Value2": "2021"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Bot will check for player",
+        "Alpha": 255,
+        "R": 1,
+        "G": 220,
+        "B": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "before joining the next room",
+        "Alpha": 255,
+        "R": 1,
+        "G": 220,
+        "B": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -341,6 +348,18 @@
         "Label": "CHECK"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Set"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "FOLLOW"
       },
@@ -364,7 +383,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
         "Tag": "Misc",
         "Text": "Int is",
-        "Value1": "Enable_zone1?",
+        "Value1": "Enable_Lockedzone?",
         "Value2": "1"
       },
       {
@@ -442,11 +461,15 @@
         "PlayerName": "[Player Name]"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
-        "Tag": "Misc",
-        "Text": "Int is",
-        "Value1": "Enable_zone2?",
-        "Value2": "0"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerInRoom, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is in room",
+        "Value1": "[Player Name]",
+        "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -500,11 +523,15 @@
         "PlayerName": "[Player Name]"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
-        "Tag": "Misc",
-        "Text": "Int is",
-        "Value1": "Enable_zone3?",
-        "Value2": "0"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerInRoom, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is in room",
+        "Value1": "[Player Name]",
+        "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -558,6 +585,10 @@
         "PlayerName": "[Player Name]"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Check"
       }
@@ -580,6 +611,12 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Yokai (SEA)",
+    "iPort": 5588,
+    "sIP": "asia.game.artix.com"
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
