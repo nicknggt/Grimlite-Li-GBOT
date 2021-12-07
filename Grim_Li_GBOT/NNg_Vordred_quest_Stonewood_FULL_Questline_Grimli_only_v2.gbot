@@ -11,34 +11,6 @@
         "Delay": 2000
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Wait",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Wait",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "unbank_items_main"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "...",
         "Alpha": 1,
@@ -204,6 +176,18 @@
         "B": 220
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "unbank_items_main"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[255,255,255]Classes & Skillsets"
       },
@@ -261,6 +245,20 @@
         "Monster": "*"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is equipped",
+        "Value1": "Void Highlord",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthGreaterThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Health is greater than",
+        "Value1": "2500",
+        "Value2": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
@@ -288,10 +286,17 @@
         "Target": "*"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
         "Tag": "Item",
-        "Text": "Is not equipped",
+        "Text": "Is equipped",
         "Value1": "Void Highlord",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthGreaterThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Health is greater than",
+        "Value1": "2500",
         "Value2": ""
       },
       {
@@ -553,6 +558,15 @@
         "Monster": "*"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Index": "4"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is equipped",
@@ -588,15 +602,6 @@
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Unshackle",
           "Index": "3"
-        },
-        "Targeted": true,
-        "Target": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": {
-          "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Index": "4"
         },
         "Targeted": true,
         "Target": "*"
@@ -9001,9 +9006,9 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
+    "sName": "Yokai (SEA)",
     "iPort": 5588,
-    "sIP": "safiria.aq.aq.com"
+    "sIP": "asia.game.artix.com"
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
