@@ -1,0 +1,24 @@
+Replacing text:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+input_message
+
+player_name
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CLIENT MESSAGE:
+━━━━━━━━━━━━━━━━━
+Blue Text Message:
+%xt%server%-1%input_message%
+━━━━━━━━━━━━━━━━━
+Red Text Message:
+%xt%warning%-1%input_message%
+━━━━━━━━━━━━━━━━━
+Messages from player:
+%xt%chatm%69061%zone~input_message%player_name%25810%69061%0%
+━━━━━━━━━━━━━━━━━
+Guild Message:
+%xt%chatm%69061%guild~input_message.%player_name%25810%69061%0%
+━━━━━━━━━━━━━━━━━
+Moderator Message:
+%xt%chatm%69061%moderator~input_message.%player_name%25810%69061%0%

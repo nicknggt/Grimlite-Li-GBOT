@@ -1,0 +1,96 @@
+/**
+						TEXT TITLE TEMPLATE
+---------------------------------------------------------
+	CTRL + H, "REPLACE ALL" to replace these values:
+---------------------------------------------------------
+replace_me_with_your_message
+(Example: Hello)
+
+replace_me_with_R_value
+(Example:255)
+
+replace_me_with_G_value
+(Example:0)
+
+replace_me_with_B_value
+(Example: 191)
+
+-----------------------------------------------------------------------
+
+(To get the RGB color value, simply head on this website:https://www.w3schools.com/colors/colors_picker.asp
+		Check the rgb(blablabla) section)
+
+(Ctrl + A to select all of these texts, Ctrl + C for copy and then Ctrl + V to paste directly inside bot commands)
+
+**/
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[replace_me_with_R_value,replace_me_with_G_value,replace_me_with_B_value]replace_me_with_your_message"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "SkillDelay": 0,
+  "ExitCombatBeforeRest": false,
+  "ExitCombatBeforeQuest": false,
+  "EnablePickup": false,
+  "EnableRejection": false,
+  "EnablePickupAll": false,
+  "EnablePickupAcTagged": false,
+  "EnableRejectAll": false,
+  "AutoRelogin": false,
+  "RelogDelay": 0,
+  "RelogRetryUponFailure": false,
+  "BotDelay": 0,
+  "WaitForAllSkills": false,
+  "WaitForSkill": false,
+  "SkipDelayIndexIf": false,
+  "InfiniteAttackRange": false,
+  "ProvokeMonsters": false,
+  "Untarget": false,
+  "EnemyMagnet": false,
+  "LagKiller": false,
+  "HidePlayers": false,
+  "SkipCutscenes": false,
+  "DisableAnimations": false,
+  "WalkSpeed": 0,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestIfMp": false,
+  "RestIfHp": false,
+  "RestMp": 0,
+  "RestHp": 0,
+  "RestartUponDeath": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "Packet": false,
+  "BankOnStop": false,
+  "EnsureComplete": false,
+  "EnsureTries": 0,
+  "AFK": false,
+  "DropDelay": 0
+}
