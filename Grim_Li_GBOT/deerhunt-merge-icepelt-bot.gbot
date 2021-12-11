@@ -209,7 +209,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "deerhunt-[room]",
-        "Cell": "End",
+        "Cell": "Enter",
         "Pad": "Spawn"
       },
       {
@@ -374,12 +374,12 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 200
+        "Delay": 2000
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
@@ -395,6 +395,33 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
         "Tag": "Quest",
         "Text": "Quest can be turned in",
+        "Value1": "8433",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "8433",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 8433,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
         "Value1": "8433",
         "Value2": ""
       },
@@ -453,18 +480,45 @@
         "Label": "Solo"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "Enter",
         "Pad": "Right"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 5000
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 1,
+        "Index": 2,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Bot is completed!!!.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1000,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%server%-1%Bot is completed!!!%",
+        "SpamTimes": 1,
+        "Delay": 1000,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
       }
     ]
   },
@@ -500,10 +554,10 @@
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
+  "AutoRelogin": true,
   "RelogDelay": 5000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
-  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
