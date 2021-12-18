@@ -156,7 +156,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "room_number",
-        "Value2": "20221"
+        "Value2": "1e99"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -532,7 +532,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "diamonds_of_nulgath_quantity",
-        "Value2": "20"
+        "Value2": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -567,7 +567,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "gem_of_nulgath_quantity",
-        "Value2": "25"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -602,7 +602,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "fresh_soul_quantity",
-        "Value2": "1"
+        "Value2": "350"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -672,7 +672,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "totem_of_nul_quantity",
-        "Value2": "100"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -831,7 +831,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "dark_crystal_shard_quantity",
-        "Value2": "35"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1344,7 +1344,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7293
+          "QuestID": 7293,
+          "IsInProgress": true
         }
       },
       {
@@ -1595,7 +1596,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7293
+          "QuestID": 7293,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1622,7 +1624,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7293
+          "QuestID": 7293,
+          "IsInProgress": true
         }
       },
       {
@@ -2410,7 +2413,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7293
+          "QuestID": 7293,
+          "IsInProgress": true
         }
       },
       {
@@ -2646,7 +2650,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7293
+          "QuestID": 7293,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2673,7 +2678,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7293
+          "QuestID": 7293,
+          "IsInProgress": true
         }
       },
       {
@@ -2905,7 +2911,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3743
+          "QuestID": 3743,
+          "IsInProgress": true
         }
       },
       {
@@ -3523,7 +3530,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3743
+          "QuestID": 3743,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -3550,7 +3558,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3743
+          "QuestID": 3743,
+          "IsInProgress": true
         }
       },
       {
@@ -13281,7 +13290,8 @@
       "Legion Blade",
       "Dessicated Heart",
       "Essence of Nulgath",
-      "Essence of Nulgath"
+      "Essence of Nulgath",
+      "Fragment of Chaos"
     ]
   },
   "Server": {
@@ -13298,6 +13308,7 @@
   "RelogDelay": 1000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
