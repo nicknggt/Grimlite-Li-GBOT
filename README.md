@@ -1,3 +1,8 @@
+# Grimlite Rev????
+- This github page is only focusing on GrimLi software (just stick to this software for now since it's much better than GrimRev). Unless when Ganku aka the GrimRev dev makes a new update which he will upload on the [main website](https://auqw.tk/) and his [github page](https://github.com/GentleGanku/GrimliteRev).
+
+**NOTE: These GBOT files in this github ONLY WORKED IN GRIMLI. Other [Grim software](https://auqw.tk/) WON'T WORK. Same thing for other Grim software GBOT(s) which also won't work in GrimLi**
+
 # Downloads:
 ## Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt)
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
@@ -6,8 +11,6 @@
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
 
 **NOTE: There might be some gbots that are in progress so be careful for not to use it after downloading, normally these gbots are appeared in the latest date modified but our team will try our best to finish it before committing**
-
-**ALSO NOTE: These GBOT files only worked for GrimLi. Other [Grimoire software](https://auqw.tk/) WON'T WORK. Same thing for other Grim software GBOT(s) which also won't work in GrimLi**
 
 ## Stuck at reconnecting in GrimLi?
 [Click here to download CleanFlash (v34.0.0.192)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.192/Flash.Player-20211207T081507Z-001.zip)
