@@ -3,6 +3,8 @@
 
 **NOTE: These GBOT files in this github ONLY WORKED IN GRIMLI. Other [Grim software](https://auqw.tk/) WON'T WORK. Same thing for other Grim software GBOT(s) which also won't work in GrimLi**
 
+- [Click here if you want to know all about GrimRev and its leaked version](https://github.com/nicknggt/GrimliteRev-GBOT#so-whats-new-about-this-version)
+
 # Downloads:
 ## Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt)
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
