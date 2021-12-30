@@ -602,7 +602,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "fresh_soul_quantity",
-        "Value2": "350"
+        "Value2": "70"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -637,7 +637,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "blood_gem_archf_quantity",
-        "Value2": "75"
+        "Value2": "15"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -672,7 +672,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "totem_of_nul_quantity",
-        "Value2": "1"
+        "Value2": "5"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -704,8 +704,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "enable_grind_uni_25",
-        "Value": 1
+        "Int": "enable_grind_uni_25"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -831,7 +830,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "dark_crystal_shard_quantity",
-        "Value2": "1"
+        "Value2": "70"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
