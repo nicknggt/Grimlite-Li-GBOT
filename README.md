@@ -1,6 +1,7 @@
 # Navigation
 ## GrimLi
 [Download](#Downloads)
+	- [GrimLi v2.3.2](#Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt))
 
 ## GrimLite Rev
 
