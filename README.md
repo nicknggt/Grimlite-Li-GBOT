@@ -8,12 +8,12 @@
 
 # Other info
 - [GrimLite Rev](#grimrev)
-- [Reconnect Problem in GrimLi/GrimRev](#ReconnectProblem)
+- [Reconnect Problem in GrimLi/GrimRev](#Reconnect_Problem)
 
 
 
 
-#grimrev
+<a name="grimrev"/>
 # Grimlite Rev????
 This github page is only focusing on GrimLi software (just stick to this software for now since it's much better than GrimRev). Unless when Ganku aka the GrimRev dev makes a new update which he will upload on the [main website](https://auqw.tk/) and his [github page](https://github.com/GentleGanku/GrimliteRev).
 
@@ -21,7 +21,9 @@ This github page is only focusing on GrimLi software (just stick to this softwar
 
 - [Click here if you want to know all about GrimRev and its leaked version](https://github.com/nicknggt/GrimliteRev-GBOT#so-whats-new-about-this-version)
 
-# ReconnectProblem
+
+<a name="Reconnect_Problem"/>
+# Reconnect Problem
 ## Stuck at reconnecting in GrimLi?
 [Click here to download CleanFlash (v34.0.0.192)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.192/Flash.Player-20211207T081507Z-001.zip)
 
