@@ -1,6 +1,7 @@
 # Navigation
 ## GrimLi
-	- [Download Link](#Downloads)
+[Download](#Downloads)
+
 ## GrimLite Rev
 
 
