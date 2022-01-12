@@ -1,6 +1,6 @@
 # Navigation
 - GrimLi
-	- Download Link: [[README#Downloads]]
+	- [Download Link](#Downloads)
 - GrimLite Rev
 
 
@@ -8,7 +8,7 @@
 
 
 <a name="Downloads"/>
-# Downloads:
+# Downloads
 ## Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt)
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
 
