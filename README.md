@@ -1,14 +1,18 @@
 # Downloads
 ## Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt)
-[click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
+- [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
+- [Changelogs](#changelogs)
 
 ## To get the latest Grimlite Li GBOT files  which are made by our guild (incl. me) 
-[click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
+- [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
 
 
 # Other info
 - [GrimLite Rev](#grimrev)
 - [Reconnect Problem in GrimLi/GrimRev](#Reconnect_Problem)
+	- [Method 1](#method_1)
+	- [Method 2](#method_2)
+	- [Method 3](#method_3)
 
 
 
@@ -26,9 +30,11 @@ This github page is only focusing on GrimLi software (just stick to this softwar
 <a name="Reconnect_Problem"/></a>
 
 # Reconnect Problem
+<a name="method_1"/></a>
 ## Stuck at reconnecting in GrimLi?
 [Click here to download CleanFlash (v34.0.0.192)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.192/Flash.Player-20211207T081507Z-001.zip)
 
+<a name="method_2"/></a>
 ## Still not working??
 1. Locate the filepath `C:\Windows\System32\Macromed\` & DELETE the Flash folder
 ![mflash_step_1](M_flash_s1.png)
@@ -38,6 +44,7 @@ This github page is only focusing on GrimLi software (just stick to this softwar
 ![mflash_step_4](M_flash_s4.png)
 5. Restart your PC if it's not working.
 
+<a name="method_3"/></a>
 ## Still not working???
 1. open "Control Panel" (You can search that phase in Window search bar and opens it)
 2. Inside "Control Panel", Make the option *View by Category*, then click on *Uninstall a program*
@@ -49,6 +56,7 @@ This github page is only focusing on GrimLi software (just stick to this softwar
 ## Still not working????
 `¯\_(ツ)_/¯`
 
+<a name="changelogs"/></a>
 # Changelogs:
 ## v2.3.2:
 - Better performance?
