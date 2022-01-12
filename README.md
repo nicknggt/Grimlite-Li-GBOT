@@ -1,21 +1,17 @@
-# Navigation
-## GrimLi
-[Download](#Downloads)
-	- [GrimLi v2.3.2](#Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt))
-
-## GrimLite Rev
-
-
-
-
-
-
 # Downloads
 ## Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt)
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
 
 ## To get the latest Grimlite Li GBOT files  which are made by our guild (incl. me) 
 [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
+
+
+# Other info
+[GrimLite Rev](#Grimlite Rev????)
+
+
+
+
 
 # Grimlite Rev????
 This github page is only focusing on GrimLi software (just stick to this software for now since it's much better than GrimRev). Unless when Ganku aka the GrimRev dev makes a new update which he will upload on the [main website](https://auqw.tk/) and his [github page](https://github.com/GentleGanku/GrimliteRev).
