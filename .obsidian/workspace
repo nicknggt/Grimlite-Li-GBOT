@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "misc/Download Link.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/Download Link.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "03745260f219da9b",
   "lastOpenFiles": [
-    "misc/Download Link.md",
     "README.md",
     "misc/GrimRev vs. GrimLi.md",
-    "misc/content.md"
+    "misc/content.md",
+    "misc/Download Link.md"
   ]
 }
