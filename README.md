@@ -8,6 +8,7 @@
 
 # Other info
 [GrimLite Rev](#grimrev)
+[Reconnect Problem in GrimLi/GrimRev](#Reconnect Problem)
 
 
 
@@ -20,6 +21,7 @@ This github page is only focusing on GrimLi software (just stick to this softwar
 
 - [Click here if you want to know all about GrimRev and its leaked version](https://github.com/nicknggt/GrimliteRev-GBOT#so-whats-new-about-this-version)
 
+# Reconnect Problem
 ## Stuck at reconnecting in GrimLi?
 [Click here to download CleanFlash (v34.0.0.192)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.192/Flash.Player-20211207T081507Z-001.zip)
 
