@@ -1,7 +1,7 @@
 # Navigation
-- GrimLi
+## GrimLi
 	- [Download Link](#Downloads)
-- GrimLite Rev
+## GrimLite Rev
 
 
 
