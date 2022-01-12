@@ -37,20 +37,20 @@ This github page is only focusing on GrimLi software (just stick to this softwar
 <a name="method_2"/></a>
 ## Still not working??
 1. Locate the filepath `C:\Windows\System32\Macromed\` & DELETE the Flash folder
-![mflash_step_1](M_flash_s1.png)
+![mflash_step_1](./stuck_at_connecting_tutorial/M_flash_s1.png)
 2. Download Flash.rar [(click here to download)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/Macromed_Flash_sys32/Flash.rar)
 3. After download it, open the downloaded file by *WinRar Archive* or any other extracting software you know (example: [7zip](https://www.7-zip.org/download.html), etc.)
 4. Drag the Flash folder to that filepath
-![mflash_step_4](M_flash_s4.png)
+![mflash_step_4](./stuck_at_connecting_tutorial/M_flash_s4.png)
 5. Restart your PC if it's not working.
 
 <a name="method_3"/></a>
 ## Still not working???
 1. open "Control Panel" (You can search that phase in Window search bar and opens it)
 2. Inside "Control Panel", Make the option *View by Category*, then click on *Uninstall a program*
-![s1_c_panel](C_Panel_s1.png)
+![s1_c_panel](./stuck_at_connecting_tutorial/C_Panel_s1.png)
 3. Click on *"Turn Windows features on or off"*, check if these 2 options are ticked in order to let your computer download those .NET Framework automatically in the latest version.
-![s2_c_panel](C_Panel_s2.png)
+![s2_c_panel](./stuck_at_connecting_tutorial/C_Panel_s2.png)
 4. Restart Your computer.
 
 ## Still not working????
