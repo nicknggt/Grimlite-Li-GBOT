@@ -7,8 +7,8 @@
 
 
 # Other info
-[GrimLite Rev](#grimrev)
-[Reconnect Problem in GrimLi/GrimRev](#Reconnect Problem)
+- [GrimLite Rev](#grimrev)
+- [Reconnect Problem in GrimLi/GrimRev](#Reconnect Problem)
 
 
 
