@@ -7,12 +7,12 @@
 
 
 # Other info
-[GrimLite Rev](#Grimlite Rev????)
+[GrimLite Rev](#grimrev)
 
 
 
 
-
+#grimrev
 # Grimlite Rev????
 This github page is only focusing on GrimLi software (just stick to this software for now since it's much better than GrimRev). Unless when Ganku aka the GrimRev dev makes a new update which he will upload on the [main website](https://auqw.tk/) and his [github page](https://github.com/GentleGanku/GrimliteRev).
 
