@@ -2,7 +2,7 @@
 # Downloads
 ## Grimlite Li
 - [Grimlite Li v2.3.2 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
-- [Changelogs](#changelogs)
+- [Changelogs](#changelogs_li)
 - [Grimlite Li GBOT(s) made by us](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
 
 ## GrimLite Rev
@@ -45,7 +45,7 @@
 ## Still not working????
 `¯\_(ツ)_/¯`
 
-<a name="changelogs"/></a>
+<a name="changelogs_li"/></a>
 # Changelogs:
 ## v2.3.2:
 - Better performance?
