@@ -3,7 +3,7 @@
 ## Grimlite Li
 - [Grimlite Li v2.3.2 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
 - [Changelogs](#changelogs_li)
-- [Grimlite Li GBOT(s) made by us](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
+- [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT)
 
 ## GrimLite Rev
 - [Grimlite Rev Download Link (Newest version v1.3 Official)](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar) made by [Ganku](https://github.com/GentleGanku) *(Date: 15/01/2022)*
