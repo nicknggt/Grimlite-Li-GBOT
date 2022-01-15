@@ -13,12 +13,10 @@
 *Grimlite Li's GBOT WON'T WORK in Grimlite Rev and same thing otherwise.*
 
 # Other info
-- [Reconnect Problem in GrimLi/GrimRev](#Reconnect_Problem)
+**- Reconnect Problem in GrimLi/GrimRev**
 	- [Method 1](#method_1)
 	- [Method 2](#method_2)
 	- [Method 3](#method_3)
-
-<a name="Reconnect_Problem"/></a>
 
 # Reconnect Problem
 <a name="method_1"/></a>
