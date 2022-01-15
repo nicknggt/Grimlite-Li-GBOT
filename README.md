@@ -1,35 +1,20 @@
-# Downloads
-## Latest version of GrimLite Li v2.3.2 has been released (Made by Froztt)
-- [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
-- [Changelogs](#changelogs)
+<a name="Top_menu"/></a>
 
-## To get the latest Grimlite Li GBOT files  which are made by our guild (incl. me) 
-- [click here to download](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
+# Downloads
+## Grimlite Li
+- [Grimlite Li v2.3.2 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
+- [Changelogs](#changelogs)
+- [Grimlite Li GBOT(s) made by us](https://github.com/nicknggt/Grimlite-Li-GBOT/archive/refs/heads/main.zip)
+
+## GrimLite Rev
+- [Grimlite Rev Download Link (Newest version v1.3 Official)](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar) made by [Ganku](https://github.com/GentleGanku) *(Date: 15/01/2022)*
 
 
 # Other info
-- [GrimLite Rev](#grimrev)
-	- [Grimlite Rev Download Link (Newest version v1.3 Official)](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar)
 - [Reconnect Problem in GrimLi/GrimRev](#Reconnect_Problem)
 	- [Method 1](#method_1)
 	- [Method 2](#method_2)
 	- [Method 3](#method_3)
-
-
-
-
-<a name="grimrev"/></a>
-
-# Grimlite Rev????
-This github page is only focusing on GrimLi software (just stick to this software for now since it's much better than GrimRev). Unless when Ganku aka the GrimRev dev makes a new update which he will upload on the [main website](https://auqw.tk/) and his [github page](https://github.com/GentleGanku/GrimliteRev).
-
-- *Update: [Grimlite Rev v.13 Official Version](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar) by [Ganku](https://github.com/GentleGanku)*
-
-**NOTE: These GBOT files in this github ONLY WORKED IN GRIMLI. Other [Grim software](https://auqw.tk/) WON'T WORK. Same thing for other Grim software GBOT(s) which also won't work in GrimLi**
-
-- [Click here if you want to know all about GrimRev and its leaked version](https://github.com/nicknggt/GrimliteRev-GBOT#so-whats-new-about-this-version)
-
-
 
 <a name="Reconnect_Problem"/></a>
 
@@ -85,3 +70,5 @@ This github page is only focusing on GrimLi software (just stick to this softwar
 - Bugfix Auto Reject Drops
 - re-Add Packet Tamperer
 - Packet Spammer in Bot Manager > Misc 2
+
+[Back to top](#Top_menu)
