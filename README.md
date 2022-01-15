@@ -7,8 +7,10 @@
 
 ## GrimLite Rev
 - [Grimlite Rev Download Link (Newest version v1.3 Official)](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar) made by [Ganku](https://github.com/GentleGanku) *(Date: 15/01/2022)*
-
 - [Grimlite Rev GBOT(s)](https://auqw.tk/)
+
+## IMPORTANT NOTES:
+*Grimlite Li's GBOT WON'T WORK in Grimlite Rev and same thing otherwise.*
 
 # Other info
 - [Reconnect Problem in GrimLi/GrimRev](#Reconnect_Problem)
@@ -44,6 +46,8 @@
 
 ## Still not working????
 `¯\_(ツ)_/¯`
+
+[Back to top](#Top_menu)
 
 <a name="changelogs_li"/></a>
 # Changelogs:
