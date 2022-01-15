@@ -1,5 +1,4 @@
 <a name="Top_menu"/></a>
-
 # Downloads
 ## Grimlite Li
 - [Grimlite Li v2.3.2 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
@@ -9,6 +8,7 @@
 ## GrimLite Rev
 - [Grimlite Rev Download Link (Newest version v1.3 Official)](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar) made by [Ganku](https://github.com/GentleGanku) *(Date: 15/01/2022)*
 
+- [Grimlite Rev GBOT(s)](https://auqw.tk/)
 
 # Other info
 - [Reconnect Problem in GrimLi/GrimRev](#Reconnect_Problem)
