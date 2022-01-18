@@ -58,16 +58,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Shadow Soul",
-          "Index": "3"
-        },
-        "Targeted": true,
-        "Target": "[attack_monster]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": {
-          "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Flaming Dragon",
           "Index": "4"
         },
@@ -80,16 +70,6 @@
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Shadow Kunai",
           "Index": "1"
-        },
-        "Targeted": true,
-        "Target": "[attack_monster]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": {
-          "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Chi Heal",
-          "Index": "2"
         },
         "Targeted": true,
         "Target": "[attack_monster]"
@@ -228,63 +208,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "solo_class",
-        "Value2": "Void Highlord"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "Value2": "Yami no Ronin"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1091,36 +1015,36 @@
         "Name": "completed_bot"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "map_to_rest",
+        "Value2": "yulgar"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "cell_name",
+        "Value2": "Wait"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "pad_name",
+        "Value2": "Spawn"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "...",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_client_packet_msg",
+        "Value2": "%xt%chatm%69061%moderator~Bot is completed!!!.%Grim chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "stop_bot_function"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1393,6 +1317,111 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "[var_skillset_label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "stop_bot_function"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "[map_to_rest]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 6,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "[map_to_rest]-1e99",
+        "Cell": "Wait",
+        "Pad": "NNg_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 6,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[cell_name]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "[cell_name]",
+        "Pad": "[pad_name]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "[var_client_packet_msg]",
+        "SpamTimes": 1,
+        "Delay": 1000,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
       }
     ]
   },
@@ -1405,7 +1434,7 @@
     "$values": []
   },
   "Author": "",
-  "Description": "",
+  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs29 This is where information about a bot will be shown in RichTextFormat\\par\r\n}\r\n",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
