@@ -1,0 +1,7 @@
+1. MUST PUT THE FOLDER "VA_Full_Bots_SDKA_included" into "Bots" folder, otherwise, the bot won't work
+
+2. Load the gbot called: "Load_me.gbot"
+
+3. Enjoy!!!
+
+NOTE: DO NOT RENAME ANY FILES/FOLDERS NAME OR CHANGE FILEPATH, Bot won't work if you do that.
