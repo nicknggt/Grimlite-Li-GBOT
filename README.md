@@ -1,7 +1,7 @@
 <a name="Top_menu"/></a>
 # Downloads
 ## Grimlite Li
-- [Grimlite Li v2.3.3 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.3/Grimlite.Li.2.3.3.zip)
+- [Grimlite Li v2.3.3 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.3/Grimlite.Li.2.3.3_Plugins_included.zip)
 - [Changelogs & Info](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/tag/v2.3.3)
 - [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT)
 - [Plugins (newest 2022)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/Jan-2022/Plugins.zip)
