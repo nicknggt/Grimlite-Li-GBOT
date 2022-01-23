@@ -7,7 +7,7 @@
 
 ## GrimLite Rev
 - [Grimlite Rev Download Link (Newest version v1.3 Official)](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar) made by [Ganku](https://github.com/GentleGanku) *(Date: 15/01/2022)*
-- [Grimlite Rev GBOT(s)](https://auqw.tk/)
+- [Grimlite Rev GBOT(s) (auqw.tk)](https://auqw.tk/)
 
 ## IMPORTANT NOTES:
 *Grimlite Li's GBOT WON'T WORK in Grimlite Rev and same thing otherwise.*
