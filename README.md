@@ -1,8 +1,8 @@
 <a name="Top_menu"/></a>
 # Downloads
 ## Grimlite Li
-- [Grimlite Li v2.3.2 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.2/Grimlite.Li.2.3_Plugins_included.zip)
-- [Changelogs](#changelogs_li)
+- [Grimlite Li v2.3.3 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.3/Grimlite.Li.2.3.3.zip)
+- [Changelogs & Info](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/tag/v2.3.3)
 - [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT)
 
 ## GrimLite Rev
@@ -44,33 +44,5 @@
 
 ## Still not working????
 `¯\_(ツ)_/¯`
-
-[Back to top](#Top_menu)
-
-<a name="changelogs_li"/></a>
-# Changelogs:
-## v2.3.2:
-- Better performance?
-- Override server list
-
-## v2.3.1
-- Now support Character Select login
-- Fix auto relogin 
-- Override server list
-
-## v2.3
-- Fix Auto Reject Drop Againn
-- Targeted skill Cmd 
-- Infinite range for potion/scroll
-- Fix some bugs
-
-## v2.2.2
-- Fix Auto Reject Drop
-
-## v2.2:
-- Bugfix Acccept Quest List
-- Bugfix Auto Reject Drops
-- re-Add Packet Tamperer
-- Packet Spammer in Bot Manager > Misc 2
 
 [Back to top](#Top_menu)
