@@ -16,13 +16,6 @@
 *Grimlite Li's GBOT WON'T WORK in Grimlite Rev and same thing otherwise.*
 
 # Other info
-<a name="deletecache"/></a>
-## Delete caches, cookies in Grim(s)
-- If you delete browsers cache, cookies, etc... in Firefox, Google Chrome or any other browsers won't work, try to use [CCleaner (portable)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CCleaner_v1/ccsetup589.zip). 
-- Extract it and run **CCleaner.exe** for *32-bit pc*; run **CCleaner64.exe** *for 64-bit pc*
-- Tick on these settings and then then click on **Run CCleaner** **(Image below)**
-![CCleaner_image_1](./stuck_at_connecting_tutorial/ccleaner_png/ccleaner_ss_1.png)
-
 ## Reconnect Problem in GrimLi/GrimRev
 - [Method 1](#method_1)
 - [Method 2](#method_2)
