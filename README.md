@@ -4,20 +4,31 @@
 - [Grimlite Li v2.3.3 made by Froztt](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/v2.3.3/Grimlite.Li.2.3.3_Plugins_included.zip)
 - [Changelogs & Info](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/tag/v2.3.3)
 - [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT)
-- [Plugins (newest 2022)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/Jan-2022/Plugins.zip)
+~~- [Plugins (newest 2022)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/Jan-2022/Plugins.zip)~~
+- [Delete cache cookies in Grim](#deletecache)
 
 ## GrimLite Rev
 - [Grimlite Rev Download Link (Newest version v1.3 Official)](https://github.com/GentleGanku/GrimliteRev/releases/download/v1.3-Skyguard/Grimlite.Rev.rar) made by [Ganku](https://github.com/GentleGanku) *(Date: 15/01/2022)*
 - [Grimlite Rev GBOT(s) (auqw.tk)](https://auqw.tk/)
+- [Delete cache cookies in Grim](#deletecache)
 
 ## IMPORTANT NOTES:
 *Grimlite Li's GBOT WON'T WORK in Grimlite Rev and same thing otherwise.*
 
 # Other info
-- Reconnect Problem in GrimLi/GrimRev
-	- [Method 1](#method_1)
-	- [Method 2](#method_2)
-	- [Method 3](#method_3)
+<a name="deletecache"/></a>
+## Delete caches, cookies in Grim(s)
+- If you delete browsers cache, cookies, etc... in Firefox, Google Chrome or any other browsers won't work, try to use [CCleaner (portable)](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CCleaner_v1/ccsetup589.zip). 
+- Extract it and run **CCleaner.exe** for *32-bit pc*; run **CCleaner64.exe** *for 64-bit pc*
+- Tick on these settings and then then click on **Run CCleaner** **(Image below)**
+![CCleaner_image_1](./stuck_at_connecting_tutorial/ccleaner_png/ccleaner_ss_1.png)
+
+## Reconnect Problem in GrimLi/GrimRev
+- [Method 1](#method_1)
+- [Method 2](#method_2)
+- [Method 3](#method_3)
+
+[Back to top](#Top_menu)
 
 # Reconnect Problem
 <a name="method_1"/></a>
