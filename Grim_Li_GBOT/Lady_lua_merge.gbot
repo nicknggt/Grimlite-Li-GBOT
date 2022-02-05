@@ -78,16 +78,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Shadow Kunai",
-          "Index": "1"
-        },
-        "Targeted": true,
-        "Target": "[attack_monster]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": {
-          "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Chi Heal",
           "Index": "2"
         },
@@ -1096,7 +1086,17 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
-      "Lua's Lucky Envelope"
+      "Lua's Lucky Envelope",
+      "Tidal Byakko Wakizashi",
+      "Tidal Byakko's Grasps",
+      "Tidal Byakko's Claws",
+      "Tidal Byakko Wakizashis",
+      "Tidal Byakko Fans",
+      "Tidal Byakko Fan",
+      "Tidal Byakko Warrior",
+      "Tidal Byakko Warrior Hair",
+      "Tidal Byakko Warrior Locks",
+      "Tidal Tiger Blissus' Fighting Stance"
     ]
   },
   "Server": {
