@@ -587,7 +587,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -625,7 +625,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 8544.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -642,7 +642,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Accepting Quest 8544 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -908,7 +908,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -939,7 +939,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Turn-in quest 8544 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -966,7 +966,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking ghost drop issues from quest 8544. (Will be logged out if this issue occurs).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -983,14 +983,14 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking success!! No ghost drops issue happened!.%Grim_Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Re-Accepting Quest 8544.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -1045,7 +1045,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Quest 8544 can be re-turn-in. Turning in Quest 8544....%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -1309,7 +1309,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -1347,7 +1347,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 8545.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -1364,14 +1364,15 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Accepting Quest 8545 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8545
+          "QuestID": 8545,
+          "IsInProgress": true
         }
       },
       {
@@ -1810,7 +1811,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -1848,7 +1849,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 2742.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -1865,14 +1866,15 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Accepting Quest 2742 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2742
+          "QuestID": 2742,
+          "IsInProgress": true
         }
       },
       {
@@ -2131,7 +2133,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -2162,7 +2164,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Turn-in quest 2742 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -2176,7 +2178,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2742
+          "QuestID": 2742,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2189,7 +2192,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking ghost drop issues from quest 2742. (Will be logged out if this issue occurs).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -2206,14 +2209,14 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking success!! No ghost drops issue happened!.%Grim_Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Re-Accepting Quest 2742.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -2227,7 +2230,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2742
+          "QuestID": 2742,
+          "IsInProgress": true
         }
       },
       {
@@ -2268,7 +2272,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Quest 2742 can be re-turn-in. Turning in Quest 2742....%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -2505,7 +2509,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -2543,7 +2547,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 2741.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -2560,7 +2564,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Accepting Quest 2741 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3280,7 +3284,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3311,7 +3315,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Turn-in quest 2741 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3338,7 +3342,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking ghost drop issues from quest 2741. (Will be logged out if this issue occurs).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3355,14 +3359,14 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking success!! No ghost drops issue happened!.%Grim_Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Re-Accepting Quest 2741.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3417,7 +3421,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Quest 2741 can be re-turn-in. Turning in Quest 2741....%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3494,7 +3498,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3532,7 +3536,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 7980.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3549,14 +3553,15 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Accepting Quest 7980 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7980
+          "QuestID": 7980,
+          "IsInProgress": true
         }
       },
       {
@@ -3607,7 +3612,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3645,7 +3650,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 7981.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3662,14 +3667,15 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Accepting Quest 7981 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7981
+          "QuestID": 7981,
+          "IsInProgress": true
         }
       },
       {
@@ -3928,7 +3934,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3959,7 +3965,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Turn-in quest 7980 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -3973,7 +3979,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7980
+          "QuestID": 7980,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -3986,7 +3993,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking ghost drop issues from quest 7980. (Will be logged out if this issue occurs).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4003,14 +4010,14 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking success!! No ghost drops issue happened!.%Grim_Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Re-Accepting Quest 7980.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4024,7 +4031,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7980
+          "QuestID": 7980,
+          "IsInProgress": true
         }
       },
       {
@@ -4065,7 +4073,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Quest 7980 can be re-turn-in. Turning in Quest 7980....%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4103,7 +4111,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4134,7 +4142,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Turn-in quest 7981 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4148,7 +4156,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7981
+          "QuestID": 7981,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -4161,7 +4170,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking ghost drop issues from quest 7981. (Will be logged out if this issue occurs).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4178,14 +4187,14 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking success!! No ghost drops issue happened!.%Grim_Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Re-Accepting Quest 7981.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4199,7 +4208,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7981
+          "QuestID": 7981,
+          "IsInProgress": true
         }
       },
       {
@@ -4240,7 +4250,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Quest 7981 can be re-turn-in. Turning in Quest 7981....%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4274,7 +4284,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4305,7 +4315,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Turn-in quest 8545 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4319,7 +4329,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8545
+          "QuestID": 8545,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -4332,7 +4343,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking ghost drop issues from quest 8545. (Will be logged out if this issue occurs).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4349,14 +4360,14 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking success!! No ghost drops issue happened!.%Grim_Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Re-Accepting Quest 8545.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4370,7 +4381,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8545
+          "QuestID": 8545,
+          "IsInProgress": true
         }
       },
       {
@@ -4411,7 +4423,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Quest 8545 can be re-turn-in. Turning in Quest 8545....%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4472,7 +4484,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4510,7 +4522,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 8546.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -4527,7 +4539,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Accepting Quest 8546 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -5198,7 +5210,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -5229,7 +5241,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Turn-in quest 8546 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -5256,7 +5268,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking ghost drop issues from quest 8546. (Will be logged out if this issue occurs).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -5273,14 +5285,14 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Checking success!! No ghost drops issue happened!.%Grim_Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Re-Accepting Quest 8546.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -5335,7 +5347,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%chatm%69061%moderator~Quest 8546 can be re-turn-in. Turning in Quest 8546....%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
-        "Delay": 1000,
+        "Delay": 1,
         "ForClient": true
       },
       {
@@ -5758,7 +5770,7 @@
     "$values": []
   },
   "Author": "",
-  "Description": "",
+  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs29\\par\r\n}\r\n",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
