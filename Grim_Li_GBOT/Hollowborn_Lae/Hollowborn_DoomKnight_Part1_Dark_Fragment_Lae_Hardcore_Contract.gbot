@@ -33,7 +33,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Farm Equipments Only?"
+        "Int": "Farm Equipments Only?",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -86,21 +87,6 @@
         "Text": "Set Temporary Variable",
         "Value1": "room_number",
         "Value2": "7577"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "▼ ▼ ▼Potion Reagents Stack▼ ▼ ▼",
-        "Alpha": 250,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
-        "Value1": "Reagents_Stack",
-        "Value2": "5"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
