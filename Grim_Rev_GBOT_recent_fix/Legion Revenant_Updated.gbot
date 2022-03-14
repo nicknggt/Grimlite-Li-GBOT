@@ -5793,7 +5793,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897
+          "QuestID": 6897,
+          "IsInProgress": true
         }
       },
       {
@@ -6850,7 +6851,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "shadowrealm",
+        "Map": "shadowrealmpast",
         "Room": "[Map ID]",
         "Cell": "Enter",
         "Pad": "Spawn"
@@ -7098,7 +7099,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897
+          "QuestID": 6897,
+          "IsInProgress": true
         }
       },
       {
@@ -7126,7 +7128,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897
+          "QuestID": 6897,
+          "IsInProgress": true
         }
       },
       {
@@ -12036,6 +12039,11 @@
       "Legion Round 2 Medal",
       "Legion Round 1 Medal"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Yokai (SEA)",
+    "iPort": 5588
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
