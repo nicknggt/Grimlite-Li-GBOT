@@ -5793,8 +5793,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897,
-          "IsInProgress": true
+          "QuestID": 6897
         }
       },
       {
@@ -7099,8 +7098,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897,
-          "IsInProgress": true
+          "QuestID": 6897
         }
       },
       {
@@ -7128,8 +7126,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897,
-          "IsInProgress": true
+          "QuestID": 6897
         }
       },
       {
@@ -7479,7 +7476,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6898
+          "QuestID": 6898,
+          "IsInProgress": true
         }
       },
       {
@@ -8529,7 +8527,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "maximus",
+        "Map": "maxius",
         "Room": "[Map ID2]",
         "Cell": "r2",
         "Pad": "Left"
@@ -9082,7 +9080,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6898
+          "QuestID": 6898,
+          "IsInProgress": true
         }
       },
       {
@@ -9100,7 +9099,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6898
+          "QuestID": 6898,
+          "IsInProgress": true
         }
       },
       {
@@ -12052,6 +12052,7 @@
   "RelogDelay": 6969,
   "BotDelay": 1,
   "InfiniteAttackRange": true,
+  "ProvokeMonsters": true,
   "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 16,
