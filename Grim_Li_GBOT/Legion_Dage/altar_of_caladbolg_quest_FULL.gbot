@@ -1,0 +1,4057 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 10
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[255,255,255]Please turn OFF"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[255,255,255]Reaccept quest after turn in"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[255,255,255]in advance options."
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[255,255,255]Otherwise, bot won't work"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "skillset_of farming_skillset_nng_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire",
+        "Set": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "[attack_monster]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Shadow Soul",
+          "Index": "3"
+        },
+        "Targeted": true,
+        "Target": "[attack_monster]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Flaming Dragon",
+          "Index": "4"
+        },
+        "Targeted": true,
+        "Target": "[attack_monster]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Shadow Kunai",
+          "Index": "1"
+        },
+        "Targeted": true,
+        "Target": "[attack_monster]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Chi Heal",
+          "Index": "2"
+        },
+        "Targeted": true,
+        "Target": "[attack_monster]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "[var_target_main_item]",
+        "Value2": "[var_inv_item_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in temp inventory",
+        "Value1": "[var_temp_inv]",
+        "Value2": "[var_temp_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[var_cell_map]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "[var_cell_map]",
+        "Pad": "[var_pad_map]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "skillset_of farming_skillset_nng_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "start_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 3000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%loadBank%30044%All%",
+        "SpamTimes": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Bank is being loaded, pls wait a moment (11 sec estimated)).%NNg_%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 11000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "variables_initial"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "variables_initial"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdClearTemp, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "room_number",
+        "Value2": "1e99"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "farming_skillset_nng_",
+        "Value2": "Legion Revenant"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "unbank_l_titan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "unbank_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "unbank_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading bank is completed. Now moving on to unbanking process.%NNg_%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Titan",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Unbanking \"Legion Titan\"....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Titan",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Legion Titan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Titan",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Unbanking \"Legion Token\"....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Legion Token"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Unbanking process is completed & bot is starting!! Have fun!!.%GrimLi-chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in bank and inventory",
+        "Value1": "Caladbolg",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start_altar_quest"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in bank and inventory",
+        "Value1": "Caladboogly",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start_altar_quest"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBankAndInvent, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in bank and inventory",
+        "Value1": "Dual Caladbolgs",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start_altar_quest"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "complete_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "start_altar_quest"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Legion Titan",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "get_legion_titan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInHouse, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in house",
+        "Value1": "Altar Of Caladbolg",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "no_altar_stop_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is in progress",
+        "Value1": "1960",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 16,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1400
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 1960.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%50588%1960%",
+        "SpamTimes": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 800
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Accepting Quest 1960 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 1960
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 16,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "lt_x5_altar"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "lt_x5_altar"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Legion Token",
+        "Value2": "5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "soul_shard_altar"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "legion_token_all_processes_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "legion_token_all_processes_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBankOrInvent, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank or inventory",
+        "Value1": "Shogun Paragon Pet",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "do_shogun_pet_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "do_dreadrock_lt_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "do_dreadrock_lt_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BOT DELAY"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "UNBANK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Legion Token"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Undead Champion"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Undead Champion",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "UCHAMPION CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Undead Champion",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BUY UCHAMPION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "MAP"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "DREADROCK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "dreadrock",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ACCEPT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "dreadrock-1e99",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "DREADROCK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ACCEPT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "4849",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4849
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "4849",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ACCEPT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "KILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "4849",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r8",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Depraved Empowerment",
+          "Index": "3"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Wicked Purgatory",
+          "Index": "2"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Atramentous Shade",
+          "Index": "1"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Anathema",
+          "Index": "4"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "KILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "COMPLETE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4849
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "4849",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Legion Token",
+        "Value2": "25000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ACCEPT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BUY UCHAMPION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "underworld-1e99",
+        "Cell": "s1",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "underworld",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "s1",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "s1",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
+        "ShopId": 216
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 666
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Undead Champion"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Undead Champion",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BUY UCHAMPION"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "DREADROCK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "do_shogun_pet_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 5
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Bot by Huy",
+        "Alpha": 250,
+        "R": 250,
+        "G": 5,
+        "B": 5
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Fotia Legion Tokens for all pets",
+        "Alpha": 250,
+        "R": 250,
+        "G": 50,
+        "B": 50
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Legion Tokens needed",
+        "Alpha": 250,
+        "R": 100,
+        "G": 100,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "LT",
+        "Value2": "25000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Temp stack before turn in",
+        "Alpha": 250,
+        "R": 220,
+        "G": 220,
+        "B": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Temp Stack",
+        "Value2": "30"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "Edit room ID",
+        "Alpha": 250,
+        "R": 100,
+        "G": 220,
+        "B": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "MapID",
+        "Value2": "1e99"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "UNBANK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "FARMING SKILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Anathema",
+          "Index": "4"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Depraved Empowerment",
+          "Index": "3"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Wicked Purgatory",
+          "Index": "2"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Atramentous Shade",
+          "Index": "1"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Nothing Heard",
+        "Value2": "[Temp Stack]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMING SKILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Nothing To See",
+        "Value2": "[Temp Stack]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMING SKILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Area Secured and Quiet",
+        "Value2": "[Temp Stack]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMING SKILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE_shogun"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "UNBANK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Legion Token"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Paragon Fiend Quest Pet"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Paragon Fiend Quest Pet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Paragon Fiend Quest Pet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "6756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Shogun Dage Pet"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Shogun Dage Pet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Shogun Dage Pet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "5756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Shogun Paragon Pet"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Shogun Paragon Pet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Shogun Paragon Pet",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "5755"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Paragon Ringbearer"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Paragon Ringbearer",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Paragon Ringbearer",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7073"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "REQURED PETS NOT FOUND",
+        "Alpha": 250,
+        "R": 220,
+        "G": 50,
+        "B": 50
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "5755"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Quest",
+        "Value2": "5755"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Complete Quest",
+        "Value2": "Complete 5755"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "5755",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5755
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "5755",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Quest]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FOTIA"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "",
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "5756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Quest",
+        "Value2": "5756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Complete Quest",
+        "Value2": "Complete 5756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "5756",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5756
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "5756",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Quest]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FOTIA"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "",
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "6750"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Quest",
+        "Value2": "6750"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Complete Quest",
+        "Value2": "Complete 6750"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "6750",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 6750
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "6750",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Quest]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FOTIA"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "6756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "6756",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "6750"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Quest",
+        "Value2": "6756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Complete Quest",
+        "Value2": "Complete 6756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "6756",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 6756
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "6756",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Quest]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FOTIA"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "",
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7073"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Quest",
+        "Value2": "7073"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
+        "Tag": "This player",
+        "Text": "Is in combat",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Quest",
+        "Value2": "7073"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Complete Quest",
+        "Value2": "Complete 7073"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "7073",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7073
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "7073",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Quest]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FOTIA"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "",
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "FOTIA"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "fotia",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMING SKILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "fotia-[MapID]",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FOTIA"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "COMPLETE_shogun"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "[Quest]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Complete Quest]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Legion Token",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Legion Token"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Legion Token",
+        "Value2": "[LT]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[Quest]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1333
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Complete 5755"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "5755",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5755
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE_shogun"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Complete 5756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "5756",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5756
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE_shogun"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Complete 6750"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "6750",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 6750
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE_shogun"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Complete 6756"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "6756",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 6756
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE_shogun"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Complete 7073"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "7073",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7073
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "COMPLETE_shogun"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "soul_shard_altar"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_map_msg",
+        "Value2": "%xt%chatm%69061%moderator~Joining map /evilwarnul.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_cell_msg",
+        "Value2": "%xt%chatm%69061%moderator~Jumping to Cell r8, Pad Left.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_map_name",
+        "Value2": "evilwarnul"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_cell_map",
+        "Value2": "r8"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_pad_map",
+        "Value2": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_target_main_item",
+        "Value2": "inv_item_name"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_inv_item_quantity",
+        "Value2": "99"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_temp_inv",
+        "Value2": "Soul Shard"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_temp_quantity",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "attack_monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "next_label",
+        "Value2": "comp_1960_altar"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_skillset_label",
+        "Value2": "skillset_of farming_skillset_nng_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_equipping",
+        "Value2": "%xt%chatm%69061%moderator~Equipping class \"farming_skillset_nng_\" (Variable name).%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "[var_target_main_item]",
+        "Value2": "[var_inv_item_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[next_label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in temp inventory",
+        "Value1": "[var_temp_inv]",
+        "Value2": "[var_temp_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[next_label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
+        "Tag": "Item",
+        "Text": "Is equipped",
+        "Value1": "[farming_skillset_nng_]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 11,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "[farming_skillset_nng_]",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 9,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "[status_equipping]",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Pad"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
+        "ItemName": "[farming_skillset_nng_]",
+        "Safe": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 11,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start_map"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "comp_1960_altar"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Jumping to Cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Turn-in quest 1960 is in process... (Safe delay 2000ms).%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 1960
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "1960",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Quest 1960 can be re turn-in. Turning in Quest 1960..%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "1960",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is in progress",
+        "Value1": "1960",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Accepting Quest 1960.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 1960
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "1960",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "get_legion_titan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "unbank_l_titan",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "legion_titan_get_checking"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "unbank_l_titan",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Player-chan chottou mate kudasai, Unbakin is in processto...%GrimLi-chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Pad"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Essence of the Undead Legend",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Unbanking \"Essence of the Undead Legend\"....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Essence of the Undead Legend",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Essence of the Undead Legend"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Essence of the Undead Legend",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Undead Legend",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Unbanking \"Undead Legend\"....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Undead Legend",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Undead Legend"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Undead Legend",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Undead Legion OverLord",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Unbanking \"Undead Legion OverLord\"....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Undead Legion OverLord",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Undead Legion OverLord"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Undead Legion OverLord",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Anou, player-chan ...., unbakin processto is completo. Bottin hajimashou.%GrimLi-chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "legion_titan_get_checking"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "legion_titan_get_checking"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "essence_undead_legend_x1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "essence_undead_legend_x1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Essence of the Undead Legend",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "undead_legend_x1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Gold is less than",
+        "Value1": "2000001",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "farm_gold_to_2mil"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "darkbirthday",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 376.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "darkbirthday",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "darkbirthday-1e99",
+        "Cell": "Wait",
+        "Pad": "NNg_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Jumping to cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 376....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 900
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
+        "ShopId": 376
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Essence of the Undead Legend",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Buying \"Essence of the Undead Legend\" x1.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Essence of the Undead Legend"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "undead_legend_x1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Undead Legend",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "merge_into_legion_titan_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Gold is less than",
+        "Value1": "2000001",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "farm_gold_to_2mil"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Legion Token",
+        "Value2": "200"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "legion_token_all_processes_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Undead Legion OverLord",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "undead_legion_overlord_req_check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "merge_into_undead_legend_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "merge_into_undead_legend_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "underworld",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 238.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "underworld",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "underworld-1e99",
+        "Cell": "s1",
+        "Pad": "NNg_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Jumping to cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 238....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 900
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
+        "ShopId": 238
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Undead Legend",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Buying \"Undead Legend\" x1.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Undead Legend"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "undead_legion_overlord_req_check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Legion Token",
+        "Value2": "300"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "legion_token_all_processes_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Gold is less than",
+        "Value1": "100000",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "farm_gold_to_100k"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "merge_into_undead_legion_overlord_enough_reqs"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "merge_into_undead_legion_overlord_enough_reqs"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "underworld",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 238.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "underworld",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "underworld-1e99",
+        "Cell": "Wait",
+        "Pad": "NNg_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Jumping to cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 238....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 900
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
+        "ShopId": 238
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Undead Legion OverLord",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Buying \"Undead Legion OverLord\" x1.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Undead Legion OverLord"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "merge_into_legion_titan_start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "underworld",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 238.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "underworld",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "underworld-1e99",
+        "Cell": "Wait",
+        "Pad": "NNg_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Jumping to cell Wait, Pad Spawn.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Loading Shop ID 238....%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 900
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
+        "ShopId": 238
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Legion Titan",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "root"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%chatm%69061%moderator~Buying \"Legion Titan\" x1.%Grim-Li chan%25810%69061%0%",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
+        "ItemName": "Legion Titan"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "no_altar_stop_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "map_to_rest",
+        "Value2": "underworld"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "cell_name",
+        "Value2": "Wait"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "pad_name",
+        "Value2": "pad_to_rest"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_client_packet_msg",
+        "Value2": "%xt%chatm%69061%moderator~You don't have Altar of Caladbolg in you house items. Bot Stopped!!!.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_mod_msg",
+        "Value2": "%xt%chatm%69061%moderator~Bot has stopped! Player is now in map /underworld, cell Wait and pad pad_to_rest.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "stop_bot_function"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "complete_bot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "map_to_rest",
+        "Value2": "underworld"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "cell_name",
+        "Value2": "Wait"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "pad_name",
+        "Value2": "pad_to_rest"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_client_packet_msg",
+        "Value2": "%xt%chatm%69061%moderator~Bot is completed!!!.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_mod_msg",
+        "Value2": "%xt%chatm%69061%moderator~Bot has stopped! Player is now in map /underworld, cell Wait and pad pad_to_rest.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "stop_bot_function"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "farm_gold_to_100k"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "farm_gold_to_2mil"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "farm_gold_to_2mil"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "map_to_rest",
+        "Value2": "underworld"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "cell_name",
+        "Value2": "Wait"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "pad_name",
+        "Value2": "pad_to_rest"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_client_packet_msg",
+        "Value2": "%xt%chatm%69061%moderator~You need to have at least 2 mil gold to start this bot. Bot stopped!!!.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_mod_msg",
+        "Value2": "%xt%chatm%69061%moderator~Bot has stopped! Player is now in map /underworld, cell Wait and pad pad_to_rest.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "stop_bot_function"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[255,255,255]System labels"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "start_map"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "[var_map_name]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "[status_map_msg]",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "[var_map_name]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Pad"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "[var_map_name]-[room_number]",
+        "Cell": "Wait",
+        "Pad": "Template_by_NNg_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 8,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[var_cell_map]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "[status_cell_msg]",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[var_cell_map]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "[var_cell_map]",
+        "Pad": "[var_pad_map]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[var_cell_map]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[var_skillset_label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "stop_bot_function"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "[map_to_rest]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 6,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "[map_to_rest]-1e99",
+        "Cell": "Wait",
+        "Pad": "NNg_"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 6,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "[cell_name]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "[cell_name]",
+        "Pad": "[pad_name]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "[status_mod_msg]",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "[var_client_packet_msg]",
+        "SpamTimes": 1,
+        "Delay": 1,
+        "ForClient": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Author": "",
+  "Description": "",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Legion Titan",
+      "Legion Token",
+      "Soul Shard",
+      "Caladbolg",
+      "Undead Death Guard",
+      "Dark Wings of the Guardian",
+      "Undead DeathGuard Helm",
+      "Dual Caladbolgs",
+      "Caladboogly",
+      "Berserker Bunny",
+      "Essence of the Undead Legend"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Yokai (SEA)",
+    "iPort": 5588,
+    "sIP": "asia.game.artix.com"
+  },
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": true,
+  "EnablePickup": true,
+  "AutoRelogin": true,
+  "RelogDelay": 1000,
+  "BotDelay": 10,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "LagKiller": true,
+  "SkipCutscenes": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "DropDelay": 500,
+  "FollowName": "Player"
+}
