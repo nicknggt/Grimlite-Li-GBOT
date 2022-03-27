@@ -4,7 +4,16 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 20
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -532,7 +541,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "diamonds_of_nulgath_quantity",
-        "Value2": "200"
+        "Value2": "50"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -602,7 +611,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "fresh_soul_quantity",
-        "Value2": "70"
+        "Value2": "50"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -637,7 +646,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "blood_gem_archf_quantity",
-        "Value2": "15"
+        "Value2": "5"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -672,7 +681,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "totem_of_nul_quantity",
-        "Value2": "5"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -704,7 +713,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "enable_grind_uni_25"
+        "Int": "enable_grind_uni_25",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -830,7 +840,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "dark_crystal_shard_quantity",
-        "Value2": "70"
+        "Value2": "20"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1225,19 +1235,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
         "Tag": "Item",
         "Text": "Is in bank",
-        "Value1": "Escherion's Helm",
+        "Value1": "Relic of Chaos",
         "Value2": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
         "TransferFromBank": true,
-        "ItemName": "Escherion's Helm"
+        "ItemName": "Relic of Chaos"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
         "Tag": "Item",
         "Text": "Is in bank",
-        "Value1": "Escherion's Helm",
+        "Value1": "Relic of Chaos",
         "Value2": "*"
       },
       {
@@ -4759,14 +4769,14 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_target_main_item",
-        "Value2": "Escherion's Helm"
+        "Value2": "Relic of Chaos"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_inv_item_quantity",
-        "Value2": "1"
+        "Value2": "13"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -12954,14 +12964,14 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_target_main_item",
-        "Value2": "Escherion's Helm"
+        "Value2": "Relic of Chaos"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_inv_item_quantity",
-        "Value2": "1"
+        "Value2": "13"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
