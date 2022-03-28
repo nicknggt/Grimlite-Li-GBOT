@@ -107,15 +107,15 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
         "Tag": "Item",
-        "Text": "Is not in temp",
+        "Text": "Is in temp inventory",
         "Value1": "Battleground E Opponent Defeated",
         "Value2": "10"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "FARMING SKILL"
+        "Label": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
@@ -202,7 +202,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         }
       },
       {
@@ -272,7 +273,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -329,7 +331,7 @@
     "$values": []
   },
   "Author": "",
-  "Description": "Description (Write in Rich Text Format)",
+  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n{\\*\\generator Riched20 10.0.22000}\\viewkind4\\uc1 \r\n\\pard\\cf1\\b\\f0\\fs29 Description (Write in Rich Text Format)\\par\r\n}\r\n",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
