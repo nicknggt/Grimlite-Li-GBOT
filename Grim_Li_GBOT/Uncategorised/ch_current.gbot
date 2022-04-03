@@ -129,7 +129,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8605
+          "QuestID": 8605,
+          "IsInProgress": true
         }
       },
       {
@@ -274,6 +275,29 @@
         "Name": "inf_skillset"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r9",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r9",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "8605",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "turn_in_8605"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersLessThan, Grimoire",
         "Tag": "Player",
         "Text": "Count is less than",
@@ -293,6 +317,46 @@
         "Monster": "*"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "two_skill_top"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "two_skill_bottom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdManaLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Mana is less than",
+        "Value1": "30",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
         "Tag": "Quest",
         "Text": "Quest can be turned in",
@@ -304,31 +368,113 @@
         "Label": "turn_in_8605"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Count is less than",
+        "Value1": "[minimum_player]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "reset_map_battleontown"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Depraved Empowerment",
+          "Text": "Hysteria",
+          "Index": "4"
+        },
+        "Targeted": true,
+        "Target": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdManaLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Mana is less than",
+        "Value1": "12",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "8605",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "turn_in_8605"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersLessThan, Grimoire",
+        "Tag": "Player",
+        "Text": "Count is less than",
+        "Value1": "[minimum_player]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "reset_map_battleontown"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Convert",
           "Index": "3"
         },
         "Targeted": true,
         "Target": "*"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest can be turned in",
-        "Value1": "8605",
-        "Value2": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "two_skill_top",
+        "Value": 1
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "turn_in_8605"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntLessThan, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int Lesser Than",
+        "Value1": "two_skill_top",
+        "Value2": "4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 18,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire",
+        "Set": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
+        "Monster": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Atramentous Shade",
+          "Text": "Shift",
           "Index": "1"
         },
         "Targeted": true,
@@ -349,7 +495,7 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Wicked Purgatory",
+          "Text": "Relapse",
           "Index": "2"
         },
         "Targeted": true,
@@ -367,25 +513,41 @@
         "Label": "turn_in_8605"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": {
-          "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Endless Fissure",
-          "Index": "4"
-        },
-        "Targeted": true,
-        "Target": "*"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 1,
+        "Int": "two_skill_bottom",
+        "Value": 1
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayersLessThan, Grimoire",
-        "Tag": "Player",
-        "Text": "Count is less than",
-        "Value1": "[minimum_player]",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntLessThan, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int Lesser Than",
+        "Value1": "two_skill_bottom",
+        "Value2": "40"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 10,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "8605",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "reset_map_battleontown"
+        "Label": "turn_in_8605"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -551,7 +713,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8605
+          "QuestID": 8605,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -615,7 +778,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8605
+          "QuestID": 8605,
+          "IsInProgress": true
         }
       },
       {
