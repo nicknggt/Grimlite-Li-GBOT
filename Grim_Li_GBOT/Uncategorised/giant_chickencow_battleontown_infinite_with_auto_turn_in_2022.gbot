@@ -867,14 +867,9 @@
       "Chef's Toque + Bangs",
       "Macintrobble Apple Pet",
       "Altar of Caladbacon",
-      "Meateor Shard"
+      "Meateor Shard",
+      "Zorbawk Pet"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Artix",
-    "iPort": 5588,
-    "sIP": "artix.aqw.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
