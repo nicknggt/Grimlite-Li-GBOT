@@ -818,7 +818,8 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
-      "Altar of Caladbacon"
+      "Altar of Caladbacon",
+      "Meateor Shard"
     ]
   },
   "Server": {
