@@ -15,7 +15,7 @@
         "Tag": "Misc",
         "Text": "Set Variable",
         "Value1": "Gold To Keep",
-        "Value2": "65000000"
+        "Value2": "50000000"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -94,14 +94,6 @@
         "Text": "Is not equipped",
         "Value1": "Chaos Slayer Mystic",
         "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
-        "Monster": "*",
-        "Skill": "1: Atramentous Shade",
-        "Index": "1",
-        "SafeHp": 100,
-        "SafeMp": 100
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
@@ -216,8 +208,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993,
-          "IsInProgress": true
+          "QuestID": 3993
         }
       },
       {
@@ -235,8 +226,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992,
-          "IsInProgress": true
+          "QuestID": 3992
         }
       },
       {
@@ -283,6 +273,10 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldGreaterThan, Grimoire",
         "Tag": "This player",
         "Text": "Gold is greater than",
@@ -315,8 +309,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993,
-          "IsInProgress": true
+          "QuestID": 3993
         }
       },
       {
@@ -352,8 +345,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992,
-          "IsInProgress": true
+          "QuestID": 3992
         }
       },
       {
