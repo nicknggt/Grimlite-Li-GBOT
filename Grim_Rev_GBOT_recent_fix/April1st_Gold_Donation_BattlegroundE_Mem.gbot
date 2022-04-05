@@ -22,7 +22,7 @@
         "Tag": "Misc",
         "Text": "Set Variable",
         "Value1": "RoomID",
-        "Value2": "2022"
+        "Value2": "1919"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -53,13 +53,13 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r4",
+        "Value1": "r1",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r4",
-        "Pad": "Left"
+        "Cell": "r1",
+        "Pad": "Center"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -130,7 +130,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
         "Tag": "Item",
         "Text": "Is in temp inventory",
-        "Value1": "Battleground E Opponent Defeated",
+        "Value1": "HonorHall Opponent Defeated",
         "Value2": "10"
       },
       {
@@ -141,7 +141,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
         "Tag": "Item",
         "Text": "Is in temp inventory",
-        "Value1": "HonorHall Opponent Defeated",
+        "Value1": "Battleground E Opponent Defeated",
         "Value2": "10"
       },
       {
@@ -167,7 +167,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
         "Tag": "Map",
         "Text": "Map is",
-        "Value1": "battlegrounde",
+        "Value1": "honorhall",
         "Value2": ""
       },
       {
@@ -184,15 +184,11 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1500
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "BattlegroundE",
+        "Map": "honorhall",
         "Room": "[RoomID]",
-        "Cell": "r4",
-        "Pad": "Left"
+        "Cell": "r1",
+        "Pad": "Center"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -220,7 +216,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         }
       },
       {
@@ -238,7 +235,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992
+          "QuestID": 3992,
+          "IsInProgress": true
         }
       },
       {
@@ -285,9 +283,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldGreaterThan, Grimoire",
         "Tag": "This player",
         "Text": "Gold is greater than",
@@ -320,7 +315,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         }
       },
       {
@@ -356,7 +352,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992
+          "QuestID": 3992,
+          "IsInProgress": true
         }
       },
       {
@@ -422,17 +419,8 @@
         "Index": 3
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvokeInMap, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1700
+        "Delay": 1800
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad2, Grimoire",
@@ -440,7 +428,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 2500
+        "Delay": 1800
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
@@ -482,15 +470,15 @@
     "$values": [
       {
         "$type": "Grimoire.Game.Data.InventoryItem, Grimoire",
-        "iQty": 48,
-        "sDesc": "Using this item will DOUBLE all gold gained from killing monsters or completing quests for 1 hour of in-game play time. Does not expire while logged out.",
+        "iQty": 23,
+        "sDesc": "Equip this boost to gain double gold for 60 minutes!",
         "iStk": 500,
         "iLvl": 1,
-        "CharItemId": 979436192,
+        "CharItemId": 1995780317,
         "sLink": "gboost::60::false",
         "sFile": "icbgold",
-        "ItemID": 17439,
-        "sName": "GOLD Boost! (1 hr)"
+        "ItemID": 27554,
+        "sName": "GOLD Boost! (60 min)"
       }
     ]
   },
