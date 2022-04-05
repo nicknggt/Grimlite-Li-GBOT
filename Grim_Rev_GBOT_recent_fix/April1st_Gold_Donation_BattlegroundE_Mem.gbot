@@ -15,7 +15,7 @@
         "Tag": "Misc",
         "Text": "Set Variable",
         "Value1": "Gold To Keep",
-        "Value2": "50000000"
+        "Value2": "65000000"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -106,6 +106,14 @@
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
         "Monster": "*",
+        "Skill": "1: Atramentous Shade",
+        "Index": "1",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
+        "Monster": "*",
         "Skill": "4: Anathema",
         "Index": "4",
         "SafeHp": 100,
@@ -167,16 +175,13 @@
         "Label": "1"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInCombat, Grimoire",
-        "Tag": "This player",
-        "Text": "Is in combat",
-        "Value1": "",
-        "Value2": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvokeInMap, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
-        "Pad": "Center"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -271,9 +276,13 @@
         "Name": "2"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Cut1",
-        "Pad": "Spawn"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvokeInMap, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
@@ -301,11 +310,29 @@
         "Delay": 1500
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "3993",
+        "Value2": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3993
         }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "3993",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
@@ -319,11 +346,29 @@
         "Delay": 1500
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "3992",
+        "Value2": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3992
         }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "3992",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -334,9 +379,25 @@
         "Name": "battleon"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Spawn"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "battleontown",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 8
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvokeInMap, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -361,8 +422,25 @@
         "Index": 3
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvokeInMap, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1700
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad2, Grimoire",
         "ShopId": "2127"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2500
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
@@ -398,7 +476,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (in Rich Text Format)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": [
@@ -419,11 +497,6 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Yokai (SEA)",
-    "iPort": 5588
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
@@ -446,6 +519,11 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
   "AFK": true,
-  "DropDelay": 1000
+  "DropDelay": 1000,
+  "PacketDelay": 250
 }
