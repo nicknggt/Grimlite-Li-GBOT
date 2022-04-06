@@ -38,7 +38,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -81,7 +83,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -215,7 +219,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -225,8 +231,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5085,
-          "IsInProgress": true
+          "QuestID": 5085
         }
       },
       {
@@ -263,7 +268,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -328,7 +335,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -338,8 +347,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5085,
-          "IsInProgress": true
+          "QuestID": 5085
         }
       },
       {
@@ -372,7 +380,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -437,7 +447,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -447,8 +459,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5085,
-          "IsInProgress": true
+          "QuestID": 5085
         }
       },
       {
@@ -481,7 +492,9 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -534,14 +547,15 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5085,
-          "IsInProgress": true
+          "QuestID": 5085
         }
       },
       {
@@ -659,8 +673,6 @@
       "Saeculum Gem"
     ]
   },
-  "ExitCombatBeforeRest": true,
-  "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "AutoRelogin": true,
   "RelogDelay": 9000,

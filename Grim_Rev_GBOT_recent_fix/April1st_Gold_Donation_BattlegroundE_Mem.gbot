@@ -32,7 +32,8 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 15
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -173,7 +174,16 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Cut1",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
@@ -270,7 +280,16 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Cut1",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -377,7 +396,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 8
+        "Index": 9
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvokeInMap, Grimoire"
@@ -386,7 +405,16 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdRest, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Cut1",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Cut1",
+        "Pad": "Resting"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -478,12 +506,11 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "ExitCombatBeforeRest": true,
-  "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
+  "BotDelay": 20,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "LagKiller": true,
