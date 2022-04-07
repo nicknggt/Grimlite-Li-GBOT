@@ -195,11 +195,13 @@
         "IndexString": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Bot_by",
+        "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
+        "Cell": "NNg_",
         "Pad": "Spawn"
       },
       {
@@ -234,7 +236,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         }
       },
       {
@@ -264,11 +267,13 @@
         "IndexString": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Unidentified_cell",
+        "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
+        "Cell": "kek",
         "Pad": "Spawn"
       },
       {
@@ -303,7 +308,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992
+          "QuestID": 3992,
+          "IsInProgress": true
         }
       },
       {
@@ -377,11 +383,13 @@
         "IndexString": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Unidentified_cell",
+        "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
+        "Cell": "kek",
         "Pad": "Spawn"
       },
       {
@@ -450,11 +458,13 @@
         "Name": "complete_3993_3992"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Unidentified_cell",
+        "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
+        "Cell": "kek",
         "Pad": "Spawn"
       },
       {
@@ -471,7 +481,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -537,7 +548,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         }
       },
       {
@@ -566,11 +578,13 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Unidentified_cell",
+        "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
+        "Cell": "kek",
         "Pad": "Spawn"
       },
       {
@@ -587,7 +601,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992
+          "QuestID": 3992,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -651,7 +666,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992
+          "QuestID": 3992,
+          "IsInProgress": true
         }
       },
       {
@@ -697,11 +713,13 @@
         "IndexString": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Unidentified_cell",
+        "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
+        "Cell": "kek",
         "Pad": "Spawn"
       },
       {
