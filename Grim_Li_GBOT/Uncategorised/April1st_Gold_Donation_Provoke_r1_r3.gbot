@@ -241,7 +241,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3993,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -486,7 +487,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3993,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -553,7 +555,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3993,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -807,6 +810,7 @@
     "sIP": "safiria.aq.aq.com"
   },
   "EnablePickup": true,
+  "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 1000,
   "BotDelay": 20,
