@@ -390,7 +390,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
         "Tag": "Map",
         "Text": "Map is",
-        "Value1": "battleontown",
+        "Value1": "battleon",
         "Value2": ""
       },
       {
@@ -422,7 +422,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "battleontown",
+        "Map": "battleon",
         "Room": "2022",
         "Cell": "Enter",
         "Pad": "Spawn"
@@ -431,7 +431,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Map is not",
-        "Value1": "battleontown",
+        "Value1": "battleon",
         "Value2": ""
       },
       {
@@ -484,7 +484,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in Rich Text Format)",
+  "Description": "Description (in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": [
@@ -526,11 +526,6 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "Packets": {
-    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
-    "$values": []
-  },
   "AFK": true,
-  "DropDelay": 1000,
-  "PacketDelay": 250
+  "DropDelay": 1000
 }
