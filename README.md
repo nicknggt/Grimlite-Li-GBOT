@@ -8,7 +8,7 @@
 - Softwares and GBOTs are found on [auqw.tk](https://auqw.tk/) website.
 
 ## IMPORTANT NOTES:
-_**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing opposite otherwise._
+_**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing for GrimLite Rev otherwise._
 
 # Other info
 - [Reconnect Problem in GrimLi\/GrimRev](#reconnect_main)
