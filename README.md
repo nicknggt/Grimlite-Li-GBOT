@@ -19,7 +19,7 @@ _**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing opposite other
 # Reconnect Problem
 <a name="method_1"/></a>
 ## Stuck at reconnecting in GrimLi?
-- Available in [auqw.tk](https://auqw.tk/) website or click [here](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.231/cleanflash3400231installer1.zip) to download
+- Installing CleanFlash (Available in [auqw.tk](https://auqw.tk/) website or click [here](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.231/cleanflash3400231installer1.zip) to download)
 
 <a name="method_2"/></a>
 ## Still not working???
