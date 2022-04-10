@@ -2,7 +2,6 @@
 # Downloads
 ## Grimlite Li
 - [Froztt\'s Google Link](https://drive.google.com/drive/folders/1P2XUDaOgGAkPh-obI0sn1w5D8pA3jhQN?fbclid=IwAR1deSzsQsGjV7L3Y6u9an-flOtWeBwHSaHowWDpTolR8TwBP3MOTDuOPUs)
-- [Changelogs & Info](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/tag/v2.3.3)
 - [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT)
 
 ## GrimLite Rev
@@ -15,7 +14,6 @@ _**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing opposite other
 - [Reconnect Problem in GrimLi\/GrimRev](#reconnect_main)
 	- [Method 1](#method_1)
 	- [Method 2](#method_2)
-
 
 <a name = "reconnect_main"/></a>
 # Reconnect Problem
