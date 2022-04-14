@@ -70,6 +70,13 @@
         "Value2": "75000000"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "room_number",
+        "Value2": "1919"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
         "Packet": "%xt%zm%getQuests%70689%6294%",
         "SpamTimes": 1,
@@ -270,7 +277,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "firewar-1e99",
+        "Map": "firewar-[room_number]",
         "Cell": "r2",
         "Pad": "Bottom"
       },
@@ -500,7 +507,7 @@
     "$values": []
   },
   "Author": "",
-  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs29 Description (Write in Rich Text Format)\\par\r\n}\r\n",
+  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n{\\*\\generator Riched20 10.0.19041}\\viewkind4\\uc1 \r\n\\pard\\cf1\\b\\f0\\fs29 Description (Write in Rich Text Format)\\par\r\n}\r\n",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
