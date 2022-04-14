@@ -523,7 +523,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is in progress",
-        "Value1": "1960",
+        "Value1": "3419",
         "Value2": ""
       },
       {
@@ -594,8 +594,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1960,
-          "IsInProgress": true
+          "QuestID": 3419,
+          "CanComplete": true
         }
       },
       {
@@ -2434,8 +2434,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1960,
-          "IsInProgress": true
+          "QuestID": 3419,
+          "CanComplete": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2444,7 +2444,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
         "Tag": "Quest",
         "Text": "Quest can be turned in",
-        "Value1": "1960",
+        "Value1": "3419",
         "Value2": ""
       },
       {
@@ -2458,7 +2458,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
         "Tag": "Quest",
         "Text": "Quest can be turned in",
-        "Value1": "1960",
+        "Value1": "3419",
         "Value2": ""
       },
       {
@@ -2470,7 +2470,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is in progress",
-        "Value1": "1960",
+        "Value1": "3419",
         "Value2": ""
       },
       {
@@ -2488,15 +2488,15 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1960,
-          "IsInProgress": true
+          "QuestID": 3419,
+          "CanComplete": true
         }
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not in progress",
-        "Value1": "1960",
+        "Value1": "3419",
         "Value2": ""
       },
       {
