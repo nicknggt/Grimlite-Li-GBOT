@@ -179,7 +179,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8641
+          "QuestID": 8641,
+          "IsInProgress": true
         }
       },
       {
@@ -455,7 +456,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8641
+          "QuestID": 8641,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 10
@@ -480,7 +482,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8641
+          "QuestID": 8641,
+          "IsInProgress": true
         }
       },
       {
@@ -595,6 +598,7 @@
   "EnablePickup": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
+  "BotDelay": 15,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "LagKiller": true,
@@ -606,7 +610,6 @@
   },
   "RestMp": 60,
   "RestHp": 60,
-  "RestartUponDeath": true,
   "Items": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
