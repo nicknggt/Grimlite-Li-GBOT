@@ -303,9 +303,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8641,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 8641
         }
       },
       {
@@ -572,18 +570,14 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 9,
-        "IndexString": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8641,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 8641
         },
         "CompleteTry": 1,
         "Delay": 10
@@ -593,24 +587,10 @@
         "Delay": 1200
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is in progress",
-        "Value1": "8641",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 3,
-        "IndexString": ""
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8641,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 8641
         }
       },
       {
@@ -622,7 +602,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 6,
+        "Index": 4,
         "IndexString": ""
       },
       {
@@ -715,12 +695,6 @@
     "$values": [
       "Ancient Remnant"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
-    "iPort": 5588,
-    "sIP": "safiria.aq.aq.com"
   },
   "EnablePickup": true,
   "AutoRelogin": true,
