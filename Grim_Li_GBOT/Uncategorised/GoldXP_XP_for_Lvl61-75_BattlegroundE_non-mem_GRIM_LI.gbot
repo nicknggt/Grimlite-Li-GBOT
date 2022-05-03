@@ -8,6 +8,31 @@
         "Delay": 20
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 9000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "unexisted_cell",
+        "Pad": "Pad"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Pad"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 2000
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "Legion Revenant",
         "Safe": true
@@ -105,30 +130,30 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
         "Tag": "Item",
-        "Text": "Is not in temp",
+        "Text": "Is in temp inventory",
         "Value1": "Battleground E Opponent Defeated",
         "Value2": "10"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "FARMING SKILL"
+        "Label": "2"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
         "Tag": "Item",
-        "Text": "Is not in temp",
+        "Text": "Is in temp inventory",
         "Value1": "Battleground D Opponent Defeated",
         "Value2": "10"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "FARMING SKILL"
+        "Label": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "2"
+        "Label": "FARMING SKILL"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -197,8 +222,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3991,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         }
       },
       {
@@ -274,8 +298,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3991,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -333,8 +356,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3991,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         }
       },
       {
@@ -397,7 +419,7 @@
   "EnablePickup": true,
   "EnableRejection": true,
   "AutoRelogin": true,
-  "RelogDelay": 7000,
+  "RelogDelay": 1000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "LagKiller": true,
