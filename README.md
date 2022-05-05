@@ -25,6 +25,8 @@ _**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing for GrimLite R
 4. Restart Your computer.
 5. After that, installing **CleanFlash**:
 	- (Available in [auqw.tk](https://auqw.tk/) website or click [here](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.231/cleanflash3400231installer1.zip) to download)
+		- ![auqw_CleanFlash_1](./stuck_at_connecting_tutorial/cleanflash_auqw_tk/step_1.png)
+		- ![auqw_CleanFlash_2](./stuck_at_connecting_tutorial/cleanflash_auqw_tk/step_2.png)
 
 ## Still not working????
 `¯\_(ツ)_/¯`
