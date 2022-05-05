@@ -2,6 +2,9 @@
 # Table of Contents
 - [Downloads](#downloads)
 - [Grim cannot launch problems](#reconnect_problems)
+	- [Missing FlashPlayer \(Install CleanFlash\)](#no_cleanflash)
+	- [Missing \.Net Framework](#no_net_framework)
+	
 
 <a name = "downloads"/></a>
 # Downloads
@@ -17,16 +20,24 @@ _**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing for GrimLite R
 
 <a name = "reconnect_problems"/></a>
 # Grim can't launch problem
+
+<a name = "no_cleanflash"/></a>
+## Missing Flash Player (Install CleanFlash):
+- (Available in [auqw.tk](https://auqw.tk/) website or click [here](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.231/cleanflash3400231installer1.zip) to download)
+	- ![auqw_CleanFlash_1](./stuck_at_connecting_tutorial/cleanflash_auqw_tk/step_1.png)
+	- ![auqw_CleanFlash_2](./stuck_at_connecting_tutorial/cleanflash_auqw_tk/step_2.png)
+
+
+<a name = "no_net_framework"/></a>
+## Missing \.NET Framework
 1. open "Control Panel" (You can search that phase in Window search bar and opens it)
 2. Inside "Control Panel", Make the option *View by Category*, then click on *Uninstall a program*
 ![s1_c_panel](./stuck_at_connecting_tutorial/C_Panel_s1.png)
 3. Click on *"Turn Windows features on or off"*, check if these 2 options are ticked in order to let your computer download those .NET Framework automatically in the latest version.
 ![s2_c_panel](./stuck_at_connecting_tutorial/C_Panel_s2.png)
 4. Restart Your computer.
-5. After that, installing **CleanFlash**:
-	- (Available in [auqw.tk](https://auqw.tk/) website or click [here](https://github.com/nicknggt/Grimlite-Li-GBOT/releases/download/CleanFlash_34.0.0.231/cleanflash3400231installer1.zip) to download)
-		- ![auqw_CleanFlash_1](./stuck_at_connecting_tutorial/cleanflash_auqw_tk/step_1.png)
-		- ![auqw_CleanFlash_2](./stuck_at_connecting_tutorial/cleanflash_auqw_tk/step_2.png)
+
+
 
 ## Still not working????
 `¯\_(ツ)_/¯`
