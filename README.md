@@ -40,6 +40,6 @@ _**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing for GrimLite R
 
 
 ## Still not working????
-\¯\\\_\(\ツ\)\_\/\¯
+¯\\\_(ツ)\_/¯
 
 [Back to top](#Top_menu)
