@@ -6,8 +6,8 @@
 <a name = "downloads"/></a>
 # Downloads
 ## Grimlite Li
-- [Froztt\'s Google Link](https://drive.google.com/drive/folders/1P2XUDaOgGAkPh-obI0sn1w5D8pA3jhQN?fbclid=IwAR1deSzsQsGjV7L3Y6u9an-flOtWeBwHSaHowWDpTolR8TwBP3MOTDuOPUs)
-- [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT)
+- [Froztt\'s Google Link - GrimLi Official Link](https://drive.google.com/drive/folders/1P2XUDaOgGAkPh-obI0sn1w5D8pA3jhQN?fbclid=IwAR1deSzsQsGjV7L3Y6u9an-flOtWeBwHSaHowWDpTolR8TwBP3MOTDuOPUs)
+- [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT) **(Only works on GrimLite Li software ONLY! Link above)**
 
 ## GrimLite Rev
 - Softwares and GBOTs are found on [auqw.tk](https://auqw.tk/) website.
