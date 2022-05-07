@@ -211,11 +211,39 @@
         "Name": "1"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
-        "Text": "Quest is not in progress",
+        "Text": "Quest is in progress",
         "Value1": "3991",
         "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "1_3992"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 700
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%161%3991%",
+        "SpamTimes": 1,
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 700
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%161%3992%",
+        "SpamTimes": 1,
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 700
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
@@ -226,68 +254,69 @@
         }
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 3992,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "1_3992"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
-        "Text": "Quest is not in progress",
+        "Text": "Quest is in progress",
         "Value1": "3992",
         "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMING SKILL"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1000
+        "Delay": 700
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3992",
-        "Value2": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%161%3992%",
+        "SpamTimes": 1,
+        "Delay": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3992,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         }
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3991",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3991",
-        "Value2": ""
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "1"
+        "Label": "1_3992"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3992",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "FARMING SKILL"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -312,8 +341,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3992,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -343,6 +371,26 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 700
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%161%3991%",
+        "SpamTimes": 1,
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 700
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%161%3992%",
+        "SpamTimes": 1,
+        "Delay": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
@@ -382,8 +430,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 3992,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         }
       },
       {
