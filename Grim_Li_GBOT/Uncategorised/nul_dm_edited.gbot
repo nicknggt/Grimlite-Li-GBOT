@@ -224,7 +224,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "solo_class_input",
-        "Value2": "Void Highlord"
+        "Value2": "Legion Revenant"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -243,7 +243,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "solo_class_splitting",
-        "Value2": "Void Highlord"
+        "Value2": "Legion Revenant"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -409,7 +409,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "diamonds_of_nulgath_quantity",
-        "Value2": "1"
+        "Value2": "1000"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -441,8 +441,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "enable_gem_of_nulgath",
-        "Value": 1
+        "Int": "enable_gem_of_nulgath"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -575,7 +574,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "blood_gem_archf_quantity",
-        "Value2": "1"
+        "Value2": "100"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -745,7 +744,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "uni_13_quantity",
-        "Value2": "13"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -777,8 +776,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "enable_dark_crystal_shard_grind",
-        "Value": 1
+        "Int": "enable_dark_crystal_shard_grind"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1120,6 +1118,10 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdClearTemp, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "load_quest_3743"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -1970,6 +1972,17 @@
         "Name": "diamond_of_nulgath"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "enable_diamonds_of_nulgath",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "gem_of_nulgath"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is in inventory",
@@ -1995,6 +2008,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "gem_of_nulgath"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "enable_gem_of_nulgath",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "fresh_soul"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -2202,8 +2226,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
-          "IsInProgress": true
+          "QuestID": 4778
         }
       },
       {
@@ -2533,8 +2556,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "ItemId": "6136",
-          "IsInProgress": true
+          "ItemId": "6136"
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2557,8 +2579,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
-          "IsInProgress": true
+          "QuestID": 4778
         }
       },
       {
@@ -2934,6 +2955,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "blood_gem_archfirned"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "enable_blood_gem_o_f",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "totem_nul"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -3712,6 +3744,47 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "accept_ktv_quest_3743"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "load_quest_3743",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%getQuests%2%3743%",
+        "SpamTimes": 1,
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "load_quest_3743",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 5,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
@@ -4646,8 +4719,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
-          "IsInProgress": true
+          "QuestID": 4778
         }
       },
       {
@@ -4866,8 +4938,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "ItemId": "5357",
-          "IsInProgress": true
+          "ItemId": "5357"
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -4890,8 +4961,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
-          "IsInProgress": true
+          "QuestID": 4778
         }
       },
       {
@@ -5776,6 +5846,17 @@
         "Name": "voucher_of_nul_non_mem"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "enable_voucher_of_nulgath_non_mem",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "dark_crystal_shard"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
@@ -5801,6 +5882,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "dark_crystal_shard"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "enable_dark_crystal_shard_grind",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "uni_34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -13966,7 +14058,7 @@
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Shadow Kunai",
-          "Index": "0"
+          "Index": "1"
         },
         "Targeted": true,
         "Target": "[attack_monster]"
@@ -14068,7 +14160,7 @@
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Shadow Kunai",
-          "Index": "0"
+          "Index": "1"
         },
         "Targeted": true,
         "Target": "[attack_monster]"
@@ -16982,7 +17074,7 @@
     "$values": []
   },
   "Author": "",
-  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n{\\*\\generator Riched20 10.0.22000}\\viewkind4\\uc1 \r\n\\pard\\cf1\\b\\f0\\fs29 This is where information about a bot will be shown in RichTextFormat\\par\r\n}\r\n",
+  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs29 This is where information about a bot will be shown in RichTextFormat\\par\r\n}\r\n",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
