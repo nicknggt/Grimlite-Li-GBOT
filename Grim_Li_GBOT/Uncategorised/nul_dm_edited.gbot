@@ -143,7 +143,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "room_number",
-        "Value2": "1e99"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -378,8 +378,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "enable_diamonds_of_nulgath",
-        "Value": 1
+        "Int": "enable_diamonds_of_nulgath"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -410,7 +409,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "diamonds_of_nulgath_quantity",
-        "Value2": "1000"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -466,7 +465,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "gem_of_nulgath_quantity",
-        "Value2": "100"
+        "Value2": "300"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -553,8 +552,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "enable_blood_gem_o_f",
-        "Value": 1
+        "Int": "enable_blood_gem_o_f"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -577,7 +575,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "blood_gem_archf_quantity",
-        "Value2": "100"
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -890,8 +888,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "enable_voucher_of_nulgath_non_mem",
-        "Value": 1
+        "Int": "enable_voucher_of_nulgath_non_mem"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -2205,7 +2202,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778
+          "QuestID": 4778,
+          "IsInProgress": true
         }
       },
       {
@@ -2535,7 +2533,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "ItemId": "6136"
+          "ItemId": "6136",
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2558,7 +2557,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778
+          "QuestID": 4778,
+          "IsInProgress": true
         }
       },
       {
@@ -4646,7 +4646,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778
+          "QuestID": 4778,
+          "IsInProgress": true
         }
       },
       {
@@ -4865,7 +4866,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "ItemId": "5357"
+          "ItemId": "5357",
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -4888,7 +4890,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778
+          "QuestID": 4778,
+          "IsInProgress": true
         }
       },
       {
