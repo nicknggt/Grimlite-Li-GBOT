@@ -13963,7 +13963,7 @@
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Shadow Kunai",
-          "Index": "1"
+          "Index": "0"
         },
         "Targeted": true,
         "Target": "[attack_monster]"
@@ -14065,7 +14065,7 @@
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Shadow Kunai",
-          "Index": "1"
+          "Index": "0"
         },
         "Targeted": true,
         "Target": "[attack_monster]"
