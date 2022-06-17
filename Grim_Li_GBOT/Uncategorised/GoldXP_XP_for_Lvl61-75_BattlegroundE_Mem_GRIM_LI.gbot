@@ -4,11 +4,8 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "",
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 10
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
@@ -23,7 +20,8 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "accept_quests"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -192,82 +190,112 @@
         "Name": "1"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3993",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993,
-          "IsInProgress": true
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3992",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992,
-          "IsInProgress": true,
-          "CanComplete": true
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3993",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "3992",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "1"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "accept_quests",
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "FARMING SKILL"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "2"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
-        "Pad": "Center"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%62893%3993%",
+        "SpamTimes": 1,
+        "Delay": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 2000
+        "Delay": 900
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 3993,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "3993",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "1_2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "1_2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%acceptQuest%62893%3992%",
+        "SpamTimes": 1,
+        "Delay": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 3992,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "3992",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "accept_quests",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "FARMING SKILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
@@ -281,18 +309,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 2000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992,
-          "IsInProgress": true,
-          "CanComplete": true
-        },
-        "CompleteTry": 1,
-        "Delay": 1000
+        "Delay": 1300
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
@@ -302,8 +319,23 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "2"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 3992,
+          "IsInProgress": true
+        },
+        "CompleteTry": 1,
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1300
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
@@ -313,8 +345,13 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "2"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 3,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "accept_quests"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -351,7 +388,7 @@
   "EnablePickup": true,
   "EnableRejection": true,
   "AutoRelogin": true,
-  "RelogDelay": 5000,
+  "RelogDelay": 8000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "LagKiller": true,
@@ -367,6 +404,5 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "DropDelay": 1000,
   "FollowName": "Player"
 }
