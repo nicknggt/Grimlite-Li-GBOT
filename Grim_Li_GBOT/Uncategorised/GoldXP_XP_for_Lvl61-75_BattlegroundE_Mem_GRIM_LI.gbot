@@ -383,8 +383,6 @@
     "iPort": 5588,
     "sIP": "artix.aqw.aq.com"
   },
-  "ExitCombatBeforeRest": true,
-  "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "EnableRejection": true,
   "AutoRelogin": true,
