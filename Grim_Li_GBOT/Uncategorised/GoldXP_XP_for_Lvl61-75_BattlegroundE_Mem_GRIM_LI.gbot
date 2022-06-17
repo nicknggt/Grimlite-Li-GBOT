@@ -15,6 +15,11 @@
         "Value2": "1919"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "provoke_r2",
+        "Value": 1
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
         "ItemName": "Legion Revenant",
         "Safe": true
@@ -60,6 +65,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire",
         "Set": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "provoke_r2",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%aggroMon%642851%1%2%",
+        "SpamTimes": 1,
+        "Delay": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -223,7 +241,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         }
       },
       {
@@ -268,7 +287,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992
+          "QuestID": 3992,
+          "IsInProgress": true
         }
       },
       {
@@ -308,7 +328,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993
+          "QuestID": 3993,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -333,7 +354,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992
+          "QuestID": 3992,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
