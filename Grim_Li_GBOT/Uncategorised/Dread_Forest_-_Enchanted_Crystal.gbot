@@ -385,26 +385,6 @@
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": {
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Chi Heal",
-          "Index": "2"
-        },
-        "Targeted": true,
-        "Target": "[attack_monster]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": {
-          "$type": "Grimoire.Game.Data.Skill, Grimoire",
-          "Text": "Shadow Soul",
-          "Index": "1"
-        },
-        "Targeted": true,
-        "Target": "[attack_monster]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": {
-          "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Shadow Soul",
           "Index": "3"
         },
@@ -417,6 +397,16 @@
           "$type": "Grimoire.Game.Data.Skill, Grimoire",
           "Text": "Flaming Dragon",
           "Index": "4"
+        },
+        "Targeted": true,
+        "Target": "[attack_monster]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": {
+          "$type": "Grimoire.Game.Data.Skill, Grimoire",
+          "Text": "Chi Heal",
+          "Index": "2"
         },
         "Targeted": true,
         "Target": "[attack_monster]"
@@ -537,7 +527,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "solo_or_support_class",
-        "Value2": "Continuum Chronomancer"
+        "Value2": "Void Highlord"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -669,7 +659,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8722
+          "QuestID": 8722,
+          "IsInProgress": true
         }
       },
       {
@@ -1041,7 +1032,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8722
+          "QuestID": 8722,
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1080,7 +1072,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8722
+          "QuestID": 8722,
+          "IsInProgress": true
         }
       },
       {
