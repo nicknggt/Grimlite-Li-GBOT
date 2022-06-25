@@ -130,50 +130,6 @@
         "Name": "equipping_class farming_class"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBank, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in bank",
-        "Value1": "[farming_class]",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 8,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 2000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "[farming_class]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1200
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[farming_class]",
-        "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
-        "IndexString": ""
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is equipped",
@@ -338,50 +294,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "equipping_class solo_or_support_class"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBank, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in bank",
-        "Value1": "[solo_or_support_class]",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 8,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 2000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "[solo_or_support_class]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1200
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[solo_or_support_class]",
-        "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
-        "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
@@ -2584,7 +2496,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_map_name",
-        "Value2": "astraviacastle"
+        "Value2": "astraviajudge"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -2812,7 +2724,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "status_mod_msg",
-        "Value2": "%xt%chatm%69061%moderator~Bot has stopped! Player is now in map /garden, buy Darkon's Instant Noodle by yourself.%Grim-Li chan%25810%69061%0%"
+        "Value2": "%xt%chatm%69061%moderator~Bot has stopped! Player is now in map /garden, buy Darkon's Instant Noodle by yourself.%Grimm%25810%69061%0%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2993,7 +2905,7 @@
     "$values": []
   },
   "Author": "",
-  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs29 This is where information about a bot will be shown in RichTextFormat\\par\r\n}\r\n",
+  "Description": "{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}}\r\n{\\colortbl ;\\red220\\green220\\blue220;}\r\n{\\*\\generator Riched20 10.0.22000}\\viewkind4\\uc1 \r\n\\pard\\cf1\\b\\f0\\fs29 This is where information about a bot will be shown in RichTextFormat\\par\r\n}\r\n",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -3011,14 +2923,6 @@
       "Banana"
     ]
   },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
-    "iPort": 5588,
-    "sIP": "safiria.aq.aq.com"
-  },
-  "ExitCombatBeforeRest": true,
-  "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,

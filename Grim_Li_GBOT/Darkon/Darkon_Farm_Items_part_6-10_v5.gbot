@@ -4,8 +4,7 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 10
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -51,35 +50,35 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Bandit",
-        "Value2": "11"
+        "Value2": "22"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Suki",
-        "Value2": "11"
+        "Value2": "22"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Ancient",
-        "Value2": "11"
+        "Value2": "22"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Flower",
-        "Value2": "11"
+        "Value2": "22"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Musical",
-        "Value2": "11"
+        "Value2": "22"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -295,50 +294,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "equipping_class solo_or_support_class"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBank, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in bank",
-        "Value1": "[solo_or_support_class]",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 8,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 2000
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "[solo_or_support_class]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1200
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[solo_or_support_class]",
-        "Safe": true
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
-        "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
@@ -772,8 +727,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8531,
-          "IsInProgress": true
+          "QuestID": 8531
         }
       },
       {
@@ -1367,8 +1321,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8531,
-          "IsInProgress": true
+          "QuestID": 8531
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1420,8 +1373,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 8531,
-          "IsInProgress": true
+          "QuestID": 8531
         }
       },
       {
@@ -3001,7 +2953,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "status_mod_msg",
-        "Value2": "%xt%chatm%69061%moderator~Bot has stopped! Player is now in map /garden, buy Darkon's Instant Noodle by yourself.%Grim-Li chan%25810%69061%0%"
+        "Value2": "%xt%chatm%69061%moderator~Bot has stopped! Player is now in map /garden, buy Darkon's Instant Noodle by yourself.%Grimm%25810%69061%0%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3196,12 +3148,6 @@
       "Mourning Flower",
       "Unfinished Musical Score"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
-    "iPort": 5588,
-    "sIP": "safiria.aq.aq.com"
   },
   "EnablePickup": true,
   "AutoRelogin": true,
