@@ -1314,7 +1314,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%crafting%1%getAlchWait%11475%11468%true%Ready to Mix%Dragon Scale%Searbush%Gebo%Moose%",
+        "Packet": "%xt%zm%crafting%1%getAlchWait%11475%11468%true%Ready to Mix%Dragon Scale%Searbush%Gebo%Hea%",
         "SpamTimes": 1,
         "Delay": 1
       },
@@ -1328,7 +1328,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%crafting%1%checkAlchComplete%11475%11468%true%Mix Complete%Dragon Scale%Searbush%Gebo%Moose%",
+        "Packet": "%xt%zm%crafting%1%checkAlchComplete%11475%11468%true%Mix Complete%Dragon Scale%Searbush%Gebo%Hea%",
         "SpamTimes": 1,
         "Delay": 1
       },
