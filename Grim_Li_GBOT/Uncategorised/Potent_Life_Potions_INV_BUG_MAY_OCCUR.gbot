@@ -930,7 +930,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
         "Tag": "This player",
         "Text": "Gold is less than",
-        "Value1": "3000001",
+        "Value1": "4000001",
         "Value2": ""
       },
       {
@@ -1087,7 +1087,7 @@
         "Tag": "Item",
         "Text": "Is in inventory",
         "Value1": "Gold Voucher 100k",
-        "Value2": "1"
+        "Value2": "30"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1153,7 +1153,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "buy_vouchers_and_runes"
+        "Label": "buy_drune_x30"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1390,7 +1390,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
         "Tag": "This player",
         "Text": "Gold is less than",
-        "Value1": "3000001",
+        "Value1": "4000001",
         "Value2": ""
       },
       {
@@ -1552,7 +1552,7 @@
         "Tag": "Item",
         "Text": "Is in inventory",
         "Value1": "Gold Voucher 100k",
-        "Value2": "1"
+        "Value2": "30"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1618,7 +1618,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "buy_voucher_rune_for_reagents"
+        "Label": "buy_drune_x30_for_rgt"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
