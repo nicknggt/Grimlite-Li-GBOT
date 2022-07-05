@@ -2361,7 +2361,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-94343",
         "Cell": "m22",
-        "Pad": "Left"
+        "Pad": "Left",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -2407,7 +2408,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
         "Cell": "m2",
-        "Pad": "Left"
+        "Pad": "Left",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3327,7 +3329,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-1e99",
         "Cell": "m22",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -3377,7 +3380,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-1919",
         "Cell": "Wait",
-        "Pad": "tercess_pad"
+        "Pad": "tercess_pad",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -3574,7 +3578,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-1e99",
         "Cell": "m22",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -3624,7 +3629,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-1919",
         "Cell": "Wait",
-        "Pad": "tercess_pad"
+        "Pad": "tercess_pad",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -5276,7 +5282,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-12122",
         "Cell": "Wait",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -5306,7 +5313,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
         "Cell": "Wait",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -5422,7 +5430,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-12122",
         "Cell": "Wait",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -5452,7 +5461,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
         "Cell": "Wait",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -7390,7 +7400,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "shadowfall-1e99",
         "Cell": "Wait",
-        "Pad": "NNg_"
+        "Pad": "NNg_",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -7800,7 +7811,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "arcangrove-1e99",
         "Cell": "Wait",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -8684,7 +8696,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "underworld-1e99",
         "Cell": "Wait",
-        "Pad": "NNg_"
+        "Pad": "NNg_",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -9417,7 +9430,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "arcangrove-1e99",
         "Cell": "Enter",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -10258,7 +10272,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-1e99",
         "Cell": "Wait",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -10565,7 +10580,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "yulgar-1e99",
         "Cell": "Wait",
-        "Pad": "NNg_xxx"
+        "Pad": "NNg_xxx",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -13558,7 +13574,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 8,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -13568,35 +13584,24 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "old_temp",
+        "Value1": "Enter",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "old_temp",
-        "Pad": "Pad"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Wait",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Enter",
         "Pad": "Pad"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "[var_map_name]-[room_number]",
         "Cell": "Wait",
-        "Pad": "Template_by_NNg_"
+        "Pad": "Template_by_NNg_",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 8,
+        "Index": 6,
         "IndexString": ""
       },
       {
@@ -13654,20 +13659,23 @@
         "IndexString": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "old_temp",
-        "Pad": "Left"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Enter",
         "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "[var_first_map]-[room_number]",
         "Cell": "Wait",
-        "Pad": "Left"
+        "Pad": "Left",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -13703,7 +13711,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "[var_map_name]-[room_number]",
         "Cell": "Wait",
-        "Pad": "Left"
+        "Pad": "Left",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -15740,7 +15749,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "thespan-1919",
         "Cell": "Wait",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -16759,7 +16769,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-1e99",
         "Cell": "m22",
-        "Pad": "Spawn"
+        "Pad": "Spawn",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -16809,7 +16820,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-1919",
         "Cell": "Wait",
-        "Pad": "tercess_pad"
+        "Pad": "tercess_pad",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
