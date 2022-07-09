@@ -469,7 +469,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is in progress",
-        "Value1": "2775",
+        "Value1": "2777",
         "Value2": ""
       },
       {
@@ -480,7 +480,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 2775.%Grim-Li chan%25810%69061%0%",
+        "Packet": "%xt%chatm%69061%moderator~Send Packet of accepting Quest 2777.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
         "Delay": 1,
         "ForClient": true
@@ -491,7 +491,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%acceptQuest%158055%2775%",
+        "Packet": "%xt%zm%acceptQuest%158055%2777%",
         "SpamTimes": 1,
         "Delay": 1
       },
@@ -501,7 +501,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%chatm%69061%moderator~Accepting Quest 2775 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
+        "Packet": "%xt%chatm%69061%moderator~Accepting Quest 2777 (Using cmd bot for more guaranteed).%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
         "Delay": 1,
         "ForClient": true
@@ -510,7 +510,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2775,
+          "QuestID": 2777,
           "IsInProgress": true
         }
       },
@@ -518,6 +518,10 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Index": 8,
         "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "slimy_lost_sock"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -528,39 +532,43 @@
         "B": 220
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "slimy_lost_sock"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "status_map_msg",
-        "Value2": "%xt%chatm%69061%moderator~Joining map /marsh.%Grim-Li chan%25810%69061%0%"
+        "Value2": "%xt%chatm%69061%moderator~Joining map /greenguardwest.%Grim-Li chan%25810%69061%0%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "status_cell_msg",
-        "Value2": "%xt%chatm%69061%moderator~Jumping to Cell Forest2, Pad Left.%Grim-Li chan%25810%69061%0%"
+        "Value2": "%xt%chatm%69061%moderator~Jumping to Cell West2, Pad Up.%Grim-Li chan%25810%69061%0%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_map_name",
-        "Value2": "marsh"
+        "Value2": "greenguardwest"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_cell_map",
-        "Value2": "Forest2"
+        "Value2": "West2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_pad_map",
-        "Value2": "Left"
+        "Value2": "Up"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -581,28 +589,28 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_temp_inv",
-        "Value2": "Schnozzberry"
+        "Value2": "Slimy Lost Sock"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "var_temp_quantity",
-        "Value2": "10"
+        "Value2": "5"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "attack_monster",
-        "Value2": "Marsh Tree"
+        "Value2": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "next_label",
-        "Value2": "turn_in_2775"
+        "Value2": "furry_stinky_sock"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -662,11 +670,148 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "turn_in_2775"
+        "Name": "furry_stinky_sock"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_map_msg",
+        "Value2": "%xt%chatm%69061%moderator~Joining map /oaklore.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_cell_msg",
+        "Value2": "%xt%chatm%69061%moderator~Jumping to Cell r14, Pad Left.%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_map_name",
+        "Value2": "oaklore"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_cell_map",
+        "Value2": "r14"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_pad_map",
+        "Value2": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_target_main_item",
+        "Value2": "inv_item_name"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_inv_item_quantity",
+        "Value2": "99"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_temp_inv",
+        "Value2": "Furry Lost Sock"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_temp_quantity",
+        "Value2": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "attack_monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "next_label",
+        "Value2": "turn_in_2777"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "var_skillset_label",
+        "Value2": "equipping_class farming_class_name"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "status_equipping",
+        "Value2": "%xt%chatm%69061%moderator~Equipping class \"farming_class_name\" (Variable name).%Grim-Li chan%25810%69061%0%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "[var_target_main_item]",
+        "Value2": "[var_inv_item_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[next_label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in temp inventory",
+        "Value1": "[var_temp_inv]",
+        "Value2": "[var_temp_quantity]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "[next_label]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start_map"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "turn_in_2777"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%chatm%69061%moderator~Turn-in quest 2775 is in process...%Grim-Li chan%25810%69061%0%",
+        "Packet": "%xt%chatm%69061%moderator~Turn-in quest 2777 is in process...%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
         "Delay": 1,
         "ForClient": true
@@ -675,7 +820,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2775,
+          "QuestID": 2777,
           "IsInProgress": true
         },
         "CompleteTry": 1,
@@ -689,7 +834,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
         "Tag": "Quest",
         "Text": "Quest can be turned in",
-        "Value1": "2775",
+        "Value1": "2777",
         "Value2": ""
       },
       {
@@ -703,13 +848,13 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%acceptQuest%158055%2775%",
+        "Packet": "%xt%zm%acceptQuest%158055%2777%",
         "SpamTimes": 1,
         "Delay": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%chatm%69061%moderator~Accepting Quest 2775.%Grim-Li chan%25810%69061%0%",
+        "Packet": "%xt%chatm%69061%moderator~Accepting Quest 2777.%Grim-Li chan%25810%69061%0%",
         "SpamTimes": 1,
         "Delay": 1,
         "ForClient": true
@@ -722,7 +867,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2775,
+          "QuestID": 2777,
           "IsInProgress": true
         }
       },
@@ -730,7 +875,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not in progress",
-        "Value1": "2775",
+        "Value1": "2777",
         "Value2": ""
       },
       {
@@ -1142,7 +1287,9 @@
   },
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
-    "$values": []
+    "$values": [
+      "Glowing Sock"
+    ]
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
