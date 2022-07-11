@@ -182,13 +182,11 @@
         "Label": "1"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "resting_status",
-        "Pad": "Center"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Enter",
         "Pad": "Center"
       },
       {
@@ -199,7 +197,8 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "battlegrounde-[room_number]",
         "Cell": "r4",
-        "Pad": "Left"
+        "Pad": "Left",
+        "Try": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -241,8 +240,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993,
-          "IsInProgress": true
+          "QuestID": 3993
         }
       },
       {
@@ -287,8 +285,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992,
-          "IsInProgress": true
+          "QuestID": 3992
         }
       },
       {
@@ -328,8 +325,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3993,
-          "IsInProgress": true
+          "QuestID": 3993
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -354,8 +350,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3992,
-          "IsInProgress": true
+          "QuestID": 3992
         },
         "CompleteTry": 1,
         "Delay": 1000
