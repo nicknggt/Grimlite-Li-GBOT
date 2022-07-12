@@ -4,7 +4,12 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 10
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "member_check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -69,6 +74,10 @@
         "R": 220,
         "G": 220,
         "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "member_check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsMember, Grimoire",
@@ -1258,7 +1267,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "[present_check_label]",
+        "Value1": "present_check_label",
         "Value2": "check"
       },
       {
@@ -4591,7 +4600,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 17,
+        "Index": 13,
         "IndexString": ""
       },
       {
@@ -4655,8 +4664,8 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
-        "Cell": "[var_cell_map]",
-        "Pad": "[var_pad_map]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
         "Try": 1
       },
       {
@@ -4967,6 +4976,14 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
       }
     ]
   },
@@ -5011,11 +5028,20 @@
       "Combat Trophy"
     ]
   },
-  "ExitCombatBeforeRest": true,
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Safiria",
+    "iPort": 5588,
+    "sIP": "safiria.aq.aq.com"
+  },
   "EnablePickup": true,
-  "RelogDelay": 5000,
-  "BotDelay": 1000,
+  "AutoRelogin": true,
+  "RelogDelay": 1000,
+  "BotDelay": 10,
   "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "LagKiller": true,
+  "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
@@ -5023,7 +5049,6 @@
   },
   "RestMp": 60,
   "RestHp": 60,
-  "RestartUponDeath": true,
   "Items": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
