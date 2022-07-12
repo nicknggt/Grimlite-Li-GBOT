@@ -2736,8 +2736,8 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
-        "Cell": "[var_cell_map]",
-        "Pad": "[var_pad_map]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
         "Try": 1
       },
       {
@@ -5027,12 +5027,6 @@
       "The Secret 4",
       "Combat Trophy"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
-    "iPort": 5588,
-    "sIP": "safiria.aq.aq.com"
   },
   "EnablePickup": true,
   "AutoRelogin": true,

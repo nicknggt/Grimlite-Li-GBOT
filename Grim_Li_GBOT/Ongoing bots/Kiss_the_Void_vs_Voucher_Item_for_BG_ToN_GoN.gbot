@@ -1253,9 +1253,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2857,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 2857
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -1294,9 +1292,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2857,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 2857
         }
       },
       {
@@ -1592,8 +1588,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3743,
-          "IsInProgress": true
+          "QuestID": 3743
         }
       },
       {
@@ -1640,8 +1635,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
-          "IsInProgress": true
+          "QuestID": 4778
         }
       },
       {
@@ -1709,9 +1703,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2857,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 2857
         }
       },
       {
@@ -2281,8 +2273,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3743,
-          "IsInProgress": true
+          "QuestID": 3743
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2334,8 +2325,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 3743,
-          "IsInProgress": true
+          "QuestID": 3743
         }
       },
       {
@@ -2398,8 +2388,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "ItemId": "6136",
-          "IsInProgress": true
+          "ItemId": "6136"
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2451,8 +2440,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
-          "IsInProgress": true
+          "QuestID": 4778
         }
       },
       {
@@ -2489,8 +2477,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "ItemId": "5357",
-          "IsInProgress": true
+          "ItemId": "5357"
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -2542,8 +2529,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
-          "IsInProgress": true
+          "QuestID": 4778
         }
       },
       {
@@ -2983,8 +2969,8 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
-        "Cell": "[var_cell_map]",
-        "Pad": "[var_pad_map]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
         "Try": 1
       },
       {
@@ -3126,8 +3112,8 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
-        "Cell": "[var_cell_map]",
-        "Pad": "[var_pad_map]",
+        "Cell": "Enter",
+        "Pad": "Spawn",
         "Try": 1
       },
       {
@@ -3425,12 +3411,6 @@
       "Voucher of Nulgath (non-mem)",
       "Unidentified 13"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "twilly.aqw.aq.com"
   },
   "EnablePickup": true,
   "AutoRelogin": true,
