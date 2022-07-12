@@ -2736,8 +2736,8 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "tercessuinotlim-[room_number]",
-        "Cell": "Enter",
-        "Pad": "Spawn",
+        "Cell": "[var_cell_map]",
+        "Pad": "[var_pad_map]",
         "Try": 1
       },
       {
@@ -2809,7 +2809,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "[present_check_label]",
+        "Value1": "present_check_label",
         "Value2": "main_check"
       },
       {
@@ -3629,12 +3629,27 @@
         "Name": "Get_TS4"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "attack_monster",
+        "Value2": "(B) Defensive Restorer"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire",
         "Set": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdAttack, Grimoire",
-        "Monster": "(B) Defensive Restorer"
+        "Monster": "[attack_monster]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
@@ -3650,7 +3665,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
         "Tag": "Monster",
         "Text": "Is in room",
-        "Value1": "(B) Defensive Restorer",
+        "Value1": "[attack_monster]",
         "Value2": ""
       },
       {
@@ -3667,7 +3682,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
         "Tag": "Monster",
         "Text": "Is in room",
-        "Value1": "(B) Defensive Restorer",
+        "Value1": "[attack_monster]",
         "Value2": ""
       },
       {
@@ -3684,7 +3699,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
         "Tag": "Monster",
         "Text": "Is in room",
-        "Value1": "(B) Defensive Restorer",
+        "Value1": "[attack_monster]",
         "Value2": ""
       },
       {
@@ -3701,7 +3716,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
         "Tag": "Monster",
         "Text": "Is in room",
-        "Value1": "(B) Defensive Restorer",
+        "Value1": "[attack_monster]",
         "Value2": ""
       },
       {
@@ -5027,6 +5042,12 @@
       "The Secret 4",
       "Combat Trophy"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Safiria",
+    "iPort": 5588,
+    "sIP": "safiria.aq.aq.com"
   },
   "EnablePickup": true,
   "AutoRelogin": true,
