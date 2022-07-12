@@ -457,7 +457,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "root"
+        "Label": "[present_check_label]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
@@ -468,7 +468,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "root"
+        "Label": "[present_check_label]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -613,7 +613,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "root"
+        "Label": "[present_check_label]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInTemp, Grimoire",
@@ -624,7 +624,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "root"
+        "Label": "[present_check_label]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1253,6 +1253,13 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "[present_check_label]",
+        "Value2": "check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -2790,6 +2797,13 @@
         "Name": "Main_Check"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "[present_check_label]",
+        "Value2": "main_check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is in progress",
@@ -2820,8 +2834,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5818,
-          "IsInProgress": true
+          "QuestID": 5818
         }
       },
       {
@@ -3717,8 +3730,68 @@
         "Label": "move_7"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "yulgar",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "yulgar-6996",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4,
+        "IndexString": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Root"
+        "Label": "TS4"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -3793,7 +3866,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "next_label",
-        "Value2": "Root"
+        "Value2": "NA"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -3909,7 +3982,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "next_label",
-        "Value2": "Root"
+        "Value2": "AF"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -4025,7 +4098,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "next_label",
-        "Value2": "Root"
+        "Value2": "C"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -4141,7 +4214,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "next_label",
-        "Value2": "Root"
+        "Value2": "FS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -4257,7 +4330,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "next_label",
-        "Value2": "Root"
+        "Value2": "BD"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -4373,7 +4446,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "next_label",
-        "Value2": "Root"
+        "Value2": "Complete_Q5818"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -4432,8 +4505,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5818,
-          "IsInProgress": true
+          "QuestID": 5818
         },
         "CompleteTry": 1,
         "Delay": 1000
@@ -4485,8 +4557,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5818,
-          "IsInProgress": true
+          "QuestID": 5818
         }
       },
       {
@@ -4520,7 +4591,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 15,
+        "Index": 17,
         "IndexString": ""
       },
       {
@@ -4548,7 +4619,7 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadel-1e99",
         "Cell": "m22",
-        "Pad": "Spawn",
+        "Pad": "Left",
         "Try": 1
       },
       {
@@ -4604,6 +4675,18 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "[var_cell_map]",
         "Pad": "[var_pad_map]"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "[var_cell_map]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2,
+        "IndexString": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -4927,12 +5010,6 @@
       "The Secret 4",
       "Combat Trophy"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588,
-    "sIP": "twilly.aqw.aq.com"
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
