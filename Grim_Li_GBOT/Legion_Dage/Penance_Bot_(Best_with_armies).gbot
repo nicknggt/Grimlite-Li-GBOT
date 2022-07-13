@@ -4,12 +4,24 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "START"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
         "Delay": 10
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "START"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "START"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -55,6 +67,14 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "variables_setup"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -203,12 +223,20 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "Options"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[247,224,17]████████████████████████████████████"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Options"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -511,6 +539,14 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "MAIN CHECK"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1991,6 +2027,62 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
       }
     ]
   },
@@ -2000,704 +2092,7 @@
   },
   "Quests": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
-    "$values": [
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7982,
-        "SafeRelogin": true,
-        "Text": "7982"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7983,
-        "SafeRelogin": true,
-        "Text": "7983"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7984,
-        "SafeRelogin": true,
-        "Text": "7984"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 7989,
-        "SafeRelogin": true,
-        "Text": "7989"
-      }
-    ]
+    "$values": []
   },
   "Author": "",
   "Description": "",
@@ -2723,6 +2118,7 @@
     "iPort": 5588,
     "sIP": "safiria.aq.aq.com"
   },
+  "ExitCombatBeforeRest": true,
   "EnablePickup": true,
   "AutoRelogin": true,
   "RelogDelay": 1000,
@@ -2742,5 +2138,6 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
+  "AntiCounter": true,
   "FollowName": "Player"
 }
