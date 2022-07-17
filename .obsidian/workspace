@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -88,6 +89,7 @@
   },
   "active": "62511dc13f7be93a",
   "lastOpenFiles": [
+    "Reaccept_quest_bug.mp4",
     "README.md",
     "Notes Delete soon.md",
     "misc/GrimRev vs. GrimLi.md",

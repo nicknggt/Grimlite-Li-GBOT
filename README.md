@@ -13,7 +13,7 @@
 - [Grimlite Li GBOT(s) made by us](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nicknggt/Grimlite-Li-GBOT/tree/main/Grim_Li_GBOT) **(Only works on GrimLite Li software ONLY! Link above)**
 
 ## GrimLite Rev
-- Softwares and GBOTs are found on [auqw.tk](https://auqw.tk/) website.
+- Softwares and GBOTs are found on [auqw](https://auqw.github.io/) website.
 
 ## IMPORTANT NOTES:
 _**Grimlite Li's GBOT WON'T WORK in Grimlite Rev** and same thing for GrimLite Rev otherwise._
