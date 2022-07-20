@@ -19,7 +19,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "room_number",
-        "Value2": "1919"
+        "Value2": "69420"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -496,9 +496,9 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
+    "sName": "Artix",
     "iPort": 5588,
-    "sIP": "safiria.aq.aq.com"
+    "sIP": "artix.aqw.aq.com"
   },
   "EnablePickup": true,
   "EnableRejection": true,
