@@ -181,6 +181,16 @@
         "Value2": ""
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "hbchallenge",
+        "Value2": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "hbchallenge-[map_number]",
         "Cell": "r4",
@@ -398,8 +408,6 @@
     "iPort": 5588,
     "sIP": "safiria.aq.aq.com"
   },
-  "ExitCombatBeforeRest": true,
-  "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
